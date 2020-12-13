@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon"> <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Pokemon</title>
+</head>
+<body>
+    <header>
+        <form id="reg" method="POST" action="/reg" onsubmit="return validateformReg();">
+            <div id="regTop"></div>
+            <div id="regMid">
+                <label for="regEmailId">Email</label>
+                <input type="email" name="regEmail" id="regEmailId">
+                <label for="regNickId">Логин</label>
+                <input type="text" name="regNick" id="regNickId">
+                <label for="regPassId">Пароль</label>
+                <input type="password" name="regPass" id="regPassId">
+                <label for="regCPassId">Подтвердите пароль</label>
+                <input type="password" name="regCPass" id="regCPassId">
+                <button type="submit" id="regBtnId">Регистрация</button>
+                <p id="authTo">Вход</p>
+                <p>Забыли пароль?</p>
+            </div>
+            <div id="regBot">
+                <div id="fail"></div>
+            </div>
+        </form>
+        <form id="auth" action="/auth" method="POST">
+            <div id="authTop"></div>
+            <div id="authMid">
+                <label for="authNickId">Логин</label>
+                <input type="text" name="authNick" id="authNickId">
+                <label for="authPassId">Пароль</label>
+                <input type="password" name="authPass" id="authPassId">
+                <button type="submit" id="authBtnId">Войти</button>
+                <p id="regTo">Регистрация</p>
+                <p id="clearPlace">Очистить</p>
+            </div>
+            <div id="authBot"></div>
+        </form>
+        <div id="bgForm"></div>
+    </header>
+    <script src="./main.js"></script>
+</body>
+</html>

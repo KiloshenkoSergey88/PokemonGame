@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    display: grid;
+    grid-template-columns: 2fr 8fr;
+}
+
+#reg {
+    display: none;
+    flex-direction: column;
+    background-color: rgb(144,33,42);
+}
+
+#regTop, #authTop {
+    height: 20%;
+}
+
+#regMid {
+    height: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 5px 30px;
+}
+
+#authMid {
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px 30px;
+}
+
+#regBot, #authBot {
+    height: 45%;
+}
+
+p {
+    margin: 0;
+    font-family: 'comic sans ms', sans-serif;
+    font-size: 11px;
+    text-align: right;
+    color: blanchedalmond;
+    transition: .5s;
+}
+
+p:hover {
+    color: cornflowerblue;
+    cursor: pointer;
+}
+
+button {
+    text-decoration: none;
+    outline: none;
+    display: inline-block;
+    color: black;
+    border-radius: 5px;
+    font-family: 'comic sans ms', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-image: linear-gradient(to right, #d9ebe8 0%, #c5c769 51%, #d1f026 100%);
+    background-size: 150% auto;
+    box-shadow: 0 0 20px rgba(0,0,0,.1);
+    transition: .5s;
+    margin-top: 7%;
+    height: 25px;
+}
+
+button:hover {
+    color: cornflowerblue;
+}
+
+label {
+    margin-top: 3px;
+    font-family: 'comic sans ms', sans-serif;
+    font-size: 15px;
+    color: black;
+}
+
+input {
+    text-decoration: none;
+    outline: none;
+    display: inline-block;
+    color: black;
+    border-radius: 5px;
+    font-family: 'comic sans ms';
+    background-image: linear-gradient(to right, #d9ebe8 0%, #c5c769 51%, #d1f026 100%);
+    background-size: 150% auto;
+    box-shadow: 0 0 20px rgba(0,0,0,.1);
+    transition: .5s;
+}
+
+#auth {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(144,33,42);
+}
+
+#bgForm {
+    height: 100%;
+    background-image: url(./img/bgLogin.jpg);
+    background-size: cover;
+}
+#fail {
+    height: 17px;
+    font-family: 'comic sans ms';
+    font-size: 12px;
+    margin-top: 20px;
+    text-align: center;
+    color: lightseagreen;
+}
