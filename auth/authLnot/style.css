@@ -47,12 +47,12 @@ p {
     font-size: 11px;
     text-align: right;
     color: blanchedalmond;
+    transition: .5s;
 }
 
 p:hover {
     color: yellow;
     cursor: pointer;
-    transition: 1.5s;
 }
 
 button {
@@ -74,7 +74,6 @@ button {
 
 button:hover {
     color: yellow;
-    transition: 1.5s;
 }
 
 label {

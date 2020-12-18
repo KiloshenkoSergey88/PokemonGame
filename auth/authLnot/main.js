@@ -57,7 +57,6 @@ authPassId.addEventListener("mouseover", function() {
     laa2.style.color = "yellow";
     this.addEventListener("mouseout", function() {
         laa2.style.color = "black";
-        console.log(authNickId.value, authPassId.value, regNickId.value, regPassId.value);
     });
 });
 regEmailId.addEventListener("mouseover", function() {

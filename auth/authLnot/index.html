@@ -28,7 +28,7 @@
                 <div id="fail"></div>
             </div>
         </form>
-        <form id="auth" method="POST" action="/auth" onsubmit="return validateformAuth()">
+        <form id="auth" action="/auth" method="POST" onsubmit="return validateformAuth();">
             <div id="authTop"></div>
             <div id="authMid">
                 <label id="laa1" for="authNickId">Логин</label>
@@ -40,7 +40,7 @@
                 <p id="clearPlace">Очистить</p>
             </div>
             <div id="authBot">
-                <div id="failA"></div>
+                <div id="failA">Проверьте логин и пароль</div>
             </div>
         </form>
         <div id="bgForm"></div>

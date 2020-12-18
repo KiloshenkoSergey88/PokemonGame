@@ -25,10 +25,10 @@
                 <p>Забыли пароль?</p>
             </div>
             <div id="regBot">
-                <div id="fail"></div>
+                <div id="fail">Логин уже занят!</div>
             </div>
         </form>
-        <form id="auth" method="POST" action="/auth" onsubmit="return validateformAuth()">
+        <form id="auth" action="/auth" method="POST" onsubmit="return validateformAuth();">
             <div id="authTop"></div>
             <div id="authMid">
                 <label id="laa1" for="authNickId">Логин</label>

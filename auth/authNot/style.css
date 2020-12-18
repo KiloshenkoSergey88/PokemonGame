@@ -12,7 +12,7 @@ header{
 }
 
 #reg {
-    display: none;
+    display: flex;
     flex-direction: column;
     background-color: rgb(144,33,42);
 }
@@ -47,12 +47,12 @@ p {
     font-size: 11px;
     text-align: right;
     color: blanchedalmond;
+    transition: .5s;
 }
 
 p:hover {
     color: yellow;
     cursor: pointer;
-    transition: 1.5s;
 }
 
 button {
@@ -74,7 +74,6 @@ button {
 
 button:hover {
     color: yellow;
-    transition: 1.5s;
 }
 
 label {
@@ -96,10 +95,11 @@ input {
     background-size: 150% auto;
     box-shadow: 0 0 20px rgba(0,0,0,.1);
     transition: 1.5s;
+    
 }
 
 #auth {
-    display: flex;
+    display: none;
     flex-direction: column;
     background-color: rgb(144,33,42);
 }
