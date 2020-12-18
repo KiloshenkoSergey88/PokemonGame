@@ -9,6 +9,7 @@ header{
     position: fixed;
     display: grid;
     grid-template-columns: 2fr 8fr;
+    background: #262626;
 }
 
 #reg {
@@ -99,14 +100,13 @@ input {
 }
 
 #auth {
-    display: flex;
+    display: none;
     flex-direction: column;
     background-color: rgb(144,33,42);
 }
 
 #bgForm {
     height: 100%;
-    background-image: url(./img/bgLogin.jpg);
     background-size: cover;
 }
 #fail, #failA {

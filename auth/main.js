@@ -1,3 +1,9 @@
+setTimeout(() => {
+    bgForm.style.backgroundImage = "url(../img/bgLogin.jpg)"; 
+    ring.style.display = "none";
+    auth.style.display = "flex";
+}, 2222);
+
 document.addEventListener("DOMContentLoaded", () => {
     regEmailId.value = null;
     regNickId.value = null;
