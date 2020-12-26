@@ -1,8 +1,8 @@
 setTimeout(() => {
-    bgForm.style.backgroundImage = "url(../img/bgLogin.jpg)"; 
+    bgForm.style.backgroundImage = "url(./img/bgLogin.jpg)";
     ring.style.display = "none";
     auth.style.display = "flex";
-}, 2222);
+}, 3222);
 
 document.addEventListener("DOMContentLoaded", () => {
     regEmailId.value = null;
@@ -20,7 +20,7 @@ regTo.onclick = () => {
     auth.style.display = "none";
     reg.style.display = "flex";
 };
-clearPlace.onclick = () => { 
+clearPlace.onclick = () => {
     regEmailId.value = null;
     regNickId.value = null;
     regPassId.value = null;
@@ -74,17 +74,17 @@ regEmailId.addEventListener("mouseover", function() {
 });
 
 function validateformAuth() {
-    
+
     if (authNickId.value.length == 0) {
         failA.textContent = "пустое поле 'Логин'";
         return false;
-    } else 
-        if (authPassId.value.length < 6) {
-            failA.textContent = "Неправильно введен пароль";
-            return false;
-        } else {
-            return true;
-        }
+    } else
+    if (authPassId.value.length < 6) {
+        failA.textContent = "Неправильно введен пароль";
+        return false;
+    } else {
+        return true;
+    }
 };
 
 function validateformReg() {

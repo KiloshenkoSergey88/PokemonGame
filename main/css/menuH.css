@@ -1,0 +1,63 @@
+#menuH {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    user-select: none;
+}
+
+#toolsH {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    user-select: none;
+}
+
+#moneyH {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    user-select: none;
+}
+
+.menuButton {
+    margin-right: 20px;
+    cursor: pointer;
+    color: whitesmoke;
+    font-size: 110%;
+    letter-spacing: 1px;
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+}
+
+.moneyButton {
+    margin-left: 20px;
+    color: whitesmoke;
+    font-size: 110%;
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+}
+
+.moneyButton img {
+    margin-right: 10px;
+}
+
+.menuButton:hover {
+    color: yellow;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.menuButton:active {
+    text-shadow: none;
+    padding-left: 4px;
+    margin-right: 16px;
+    padding-top: 6px;
+    transition: 0ms;
+}

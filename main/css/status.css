@@ -1,0 +1,88 @@
+#statusH {
+    display: flex;
+}
+
+#logoH {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#controlH {
+    width: 70%;
+    align-items: center;
+}
+
+#avatarDiv {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-image: url(../img/HeroesP/AshK.png);
+    background-size: cover;
+}
+
+#modW {
+    display: none;
+    position: fixed;
+    top: 30%;
+    left: 30%;
+    width: 30%;
+    height: 30%;
+    background-color: url(../img/logo/nullFon.png);
+    z-index: 1;
+    border: 1px solid red;
+    box-shadow: 3px 6px 4px rgba(0, 0, 0, 0.4);
+}
+
+#modWtop {
+    height: 15%;
+    text-align: end;
+}
+
+#modWtop img {
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+}
+
+#modWbtn {
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#modwindowAvatar {
+    display: flex;
+    align-items: center;
+    height: 55%;
+}
+
+#modwindowAvatar img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    margin: 1px;
+}
+
+#modwindowAvatar img:active {
+    background-color: yellow;
+}
+
+#loginH {
+    display: flex;
+    flex-direction: column;
+}
+
+#loginH span:first-child {
+    font-size: 20px;
+    color: rgba(247, 182, 86, 0.822);
+    margin-left: 10%;
+}
+
+#activeMouseSpan {
+    font-size: 12px;
+    color: chartreuse;
+    margin-left: 10%;
+}
