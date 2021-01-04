@@ -19,8 +19,8 @@ const db = pgp(cn);
 
 app.use("/", express.static("d:/JS/pokemonGame/main"));
 // app.use("/", express.static(__dirname + "../../auth"));
-app.use("/not/", express.static(__dirname + "../../auth/authNot"));
-app.use("/notauth/", express.static(__dirname + "../../auth/authLnot"));
+// app.use("/not/", express.static(__dirname + "../../auth/authNot"));
+// app.use("/notauth/", express.static(__dirname + "../../auth/authLnot"));
 
 
 const urlPars = bodyParser.urlencoded({ extended: false });
@@ -62,6 +62,14 @@ app.post("/auth", urlPars, function(req, res) {
         })
 });
 
+io.on('connection', function(socket) {
+    console.log(`user is connected`);
+
+    socket.on('disconnect', function() {
+        console.log('A user disconnected');
+    });
+});
+
 https.listen(3443, "192.168.1.100", () => {
-    console.log("Server running...")
+    console.log("Server running to 192.168.1.100:3443")
 });
