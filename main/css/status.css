@@ -31,7 +31,7 @@
     height: 30%;
     background-color: url(../img/logo/nullFon.png);
     z-index: 1;
-    border: 1px solid red;
+    border: 1px solid rgba(255, 72, 0, 0.281);
     box-shadow: 3px 6px 4px rgba(0, 0, 0, 0.4);
 }
 
@@ -53,6 +53,29 @@
     align-items: center;
 }
 
+#modWScss {
+    appearance: none;
+    border: 1px solid red;
+    border-radius: 4px;
+    background: #004050;
+    color: whitesmoke;
+    padding: 6px 14px;
+    font-size: 14px;
+}
+
+#modWScss:hover {
+    background: black;
+    color: red;
+    transition: 0.5s;
+}
+
+#modWScss:active {
+    border: 1px solid yellow;
+    background: black;
+    color: gray;
+    transition: none;
+}
+
 #modwindowAvatar {
     display: flex;
     align-items: center;
@@ -67,7 +90,7 @@
 }
 
 #modwindowAvatar img:active {
-    background-color: yellow;
+    background-color: rgba(255, 0, 0, 0.534);
 }
 
 #loginH {
@@ -75,9 +98,9 @@
     flex-direction: column;
 }
 
-#loginH span:first-child {
-    font-size: 20px;
-    color: rgba(247, 182, 86, 0.822);
+#userLogin {
+    font-size: 18px;
+    color: rgba(243, 177, 77, 0.822);
     margin-left: 10%;
 }
 

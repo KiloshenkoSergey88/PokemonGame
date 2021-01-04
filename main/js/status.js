@@ -6,7 +6,6 @@ closeModW.addEventListener('click', function() {
     modW.style.display = "none";
 });
 modwindowAvatar.addEventListener('click', function(e) {
-    console.log(e.target);
     document.querySelectorAll('.modWHero').forEach((el) => {
         el.style.border = "none";
         el.style.margin = '1px';
@@ -15,16 +14,18 @@ modwindowAvatar.addEventListener('click', function(e) {
     if (e.target.id == "modwindowAvatar") {
         console.log('промах');
     } else {
-        e.target.style.border = "1px solid yellow";
+        e.target.style.border = "1px solid red";
         e.target.style.margin = "0";
     }
 })
-modWbtn.addEventListener('click', function() {
+modWScss.addEventListener('click', function() {
     document.querySelectorAll('.modWHero').forEach((el) => {
-        if (el.style.border == "1px solid yellow") {
+        if (el.style.border == "1px solid red") {
             let set = el.src;
             avatarDiv.style.backgroundImage = `url('${set}')`;
-            console.log(set);
+            modW.style.display = "none";
+            el.style.border = "none";
+            el.style.margin = '1px';
         }
 
     });
