@@ -3,21 +3,24 @@
     padding: 0;
 }
 
-header{
+header {
     width: 100%;
     height: 100%;
     position: fixed;
     display: grid;
     grid-template-columns: 2fr 8fr;
+    background-image: url(../img/bgLoader.png);
+    background-size: cover;
 }
 
 #reg {
     display: flex;
     flex-direction: column;
-    background-color: rgb(144,33,42);
+    background-color: #970A12;
 }
 
-#regTop, #authTop {
+#regTop,
+#authTop {
     height: 20%;
 }
 
@@ -37,7 +40,8 @@ header{
     padding: 5px 30px;
 }
 
-#regBot, #authBot {
+#regBot,
+#authBot {
     height: 45%;
 }
 
@@ -47,12 +51,12 @@ p {
     font-size: 11px;
     text-align: right;
     color: blanchedalmond;
-    transition: .5s;
 }
 
 p:hover {
     color: yellow;
     cursor: pointer;
+    transition: 1.5s;
 }
 
 button {
@@ -66,7 +70,7 @@ button {
     letter-spacing: 2px;
     background-image: linear-gradient(to right, #d9ebe8 0%, #c5c769 51%, #d1f026 100%);
     background-size: 150% auto;
-    box-shadow: 0 0 20px rgba(0,0,0,.1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, .1);
     transition: .5s;
     margin-top: 7%;
     height: 25px;
@@ -74,6 +78,7 @@ button {
 
 button:hover {
     color: yellow;
+    transition: 1.5s;
 }
 
 label {
@@ -93,23 +98,23 @@ input {
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-image: linear-gradient(to right, #d9ebe8 0%, #c5c769 51%, #d1f026 100%);
     background-size: 150% auto;
-    box-shadow: 0 0 20px rgba(0,0,0,.1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, .1);
     transition: 1.5s;
-    
 }
 
 #auth {
     display: none;
     flex-direction: column;
-    background-color: rgb(144,33,42);
+    background-color: #970A12;
 }
 
 #bgForm {
     height: 100%;
-    background-image: url(./img/bgLogin.jpg);
     background-size: cover;
 }
-#fail, #failA {
+
+#fail,
+#failA {
     height: 17px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 12px;

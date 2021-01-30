@@ -16,7 +16,7 @@ header {
 #reg {
     display: none;
     flex-direction: column;
-    background-color: rgb(144, 33, 42);
+    background-color: #970A12;
 }
 
 #regTop,

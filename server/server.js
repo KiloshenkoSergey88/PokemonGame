@@ -2,8 +2,8 @@ const express = require('express'),
     app = express(),
     httpsOptions = require('./cert/https'),
     https = require('https').Server(httpsOptions, app),
-    io = require('socket.io')(https),
-    dataChar = require('./Data/DataChar'),
+    // io = require('socket.io')(https),
+    // dataChar = require('./Data/DataChar'),
     bodyParser = require('body-parser'),
     generator = require('generate-password'),
     pgp = require("pg-promise")( /*options*/ );
@@ -17,10 +17,9 @@ const cn = {
 };
 const db = pgp(cn);
 
-app.use("/", express.static("d:/JS/pokemonGame/main"));
-// app.use("/", express.static(__dirname + "../../auth"));
-// app.use("/not/", express.static(__dirname + "../../auth/authNot"));
-// app.use("/notauth/", express.static(__dirname + "../../auth/authLnot"));
+app.use("/", express.static(__dirname + "../../auth"));
+app.use("/not/", express.static(__dirname + "../../auth/authNot"));
+app.use("/notauth/", express.static(__dirname + "../../auth/authLnot"));
 
 
 const urlPars = bodyParser.urlencoded({ extended: false });
@@ -40,7 +39,7 @@ app.post("/reg", urlPars, function(req, res) {
             db.query(queryOn, [req.body.regNick, req.body.regPass, req.body.regEmail, new Date(), token])
                 .then(function(data) {
                     console.log(data);
-                    app.use(`/game/${token}/:login`, express.static(__dirname + "../../main"));
+                    app.use(`/game/${token}/${nickname}`, express.static(__dirname + "../../main"));
                     res.redirect(302, `../game/${token}/${req.body.regNick}`);
                 })
                 .catch(function(error) {
@@ -54,6 +53,7 @@ app.post("/auth", urlPars, function(req, res) {
     db.one(queryIn, [req.body.authNick, req.body.authPass])
         .then(function(data) {
             console.log(data);
+            app.use(`/game/${data.token}/${data.nickname}`, express.static(__dirname + "../../main"));
             res.redirect(302, `../game/${data.token}/${req.body.authNick}`);
         })
         .catch(() => {
@@ -62,13 +62,15 @@ app.post("/auth", urlPars, function(req, res) {
         })
 });
 
-io.on('connection', function(socket) {
-    console.log(`user is connected`);
+// io.on('connection', (socket) => {
+//     console.log('a user connected');
 
-    socket.on('disconnect', function() {
-        console.log('A user disconnected');
-    });
-});
+
+
+//     socket.on('disconnect', () => {
+//         console.log('user disconnected');
+//     });
+// });
 
 https.listen(3443, "192.168.1.100", () => {
     console.log("Server running to 192.168.1.100:3443")

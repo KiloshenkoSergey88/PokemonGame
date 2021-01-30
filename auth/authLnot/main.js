@@ -14,7 +14,7 @@ regTo.onclick = () => {
     auth.style.display = "none";
     reg.style.display = "flex";
 };
-clearPlace.onclick = () => { 
+clearPlace.onclick = () => {
     regEmailId.value = null;
     regNickId.value = null;
     regPassId.value = null;
@@ -57,6 +57,7 @@ authPassId.addEventListener("mouseover", function() {
     laa2.style.color = "yellow";
     this.addEventListener("mouseout", function() {
         laa2.style.color = "black";
+        console.log(authNickId.value, authPassId.value, regNickId.value, regPassId.value);
     });
 });
 regEmailId.addEventListener("mouseover", function() {
@@ -67,17 +68,17 @@ regEmailId.addEventListener("mouseover", function() {
 });
 
 function validateformAuth() {
-    
+
     if (authNickId.value.length == 0) {
         failA.textContent = "пустое поле 'Логин'";
         return false;
-    } else 
-        if (authPassId.value.length < 6) {
-            failA.textContent = "Неправильно введен пароль";
-            return false;
-        } else {
-            return true;
-        }
+    } else
+    if (authPassId.value.length < 6) {
+        failA.textContent = "Неправильно введен пароль";
+        return false;
+    } else {
+        return true;
+    }
 };
 
 function validateformReg() {

@@ -17,83 +17,89 @@
 </head>
 
 <body>
-    <div id="modW">
-        <div id="modWtop">
-            <img id="closeModW" src="./img/logo/close.png" alt="closeModW">
+    <div id="gamemain">
+        <div id="modW">
+            <div id="modWtop">
+                <img id="closeModW" src="./img/logo/close.png" alt="closeModW">
+            </div>
+            <div id="modwindowAvatar">
+                <img class="modWHero" src="./img/HeroesP/AshK.png" alt="Ash">
+                <img class="modWHero" src="./img/HeroesP/Serena.png" alt="Serena">
+                <img class="modWHero" src="./img/HeroesP/Misty.png" alt="Misty">
+                <img class="modWHero" src="./img/HeroesP/Brok.png" alt="Brok">
+                <img class="modWHero" src="./img/HeroesP/James.png" alt="James">
+                <img class="modWHero" src="./img/HeroesP/Jessy.png" alt="Jessy">
+            </div>
+            <div id="modWbtn">
+                <button id="modWScss">Принять</button>
+            </div>
         </div>
-        <div id="modwindowAvatar">
-            <img class="modWHero" src="./img/HeroesP/AshK.png" alt="Ash">
-            <img class="modWHero" src="./img/HeroesP/Serena.png" alt="Serena">
-            <img class="modWHero" src="./img/HeroesP/Misty.png" alt="Misty">
-            <img class="modWHero" src="./img/HeroesP/Brok.png" alt="Brok">
-            <img class="modWHero" src="./img/HeroesP/James.png" alt="James">
-            <img class="modWHero" src="./img/HeroesP/Jessy.png" alt="Jessy">
-        </div>
-        <div id="modWbtn">
-            <button id="modWScss">Принять</button>
-        </div>
-    </div>
-    <header>
-        <div id="main">
-            <div id="headerM">
-                <div id="playH">
-                    <img id="logo" src="./img/logo/logo.png" alt="logo">
-                    <img id="sLogo" src="./img/logo/sLogo.png" alt="logo">
-                    <button id="buttonLogo" onclick="">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        Играть
-                    </button>
-                </div>
-                <div id="menuH">
-                    <div class="menuButton" id="homeH">Главная</div>
-                    <div class="menuButton" id="pokeballH">Покебол</div>
-                    <div class="menuButton" id="persStatsH">Статистика</div>
-                </div>
-                <div id="reserve"></div>
-                <div id="toolsH">
-                    <div class="menuButton" id="awardsH"><img width="40" height="40" src="./img/logo/shield.png" alt="shield" title="Награды"></div>
-                    <div class="menuButton" id="payH"><img width="50" height="50" src="./img/logo/cards.png" alt="pay" title="Покупки"></div>
-                </div>
-                <div id="moneyH">
-                    <div class="moneyButton" id="expH">
-                        <img src="./img/logo/cash.png" width="20" height="20" alt="cash">
-                        <span>1000</span>
+        <header>
+            <div id="main">
+                <div id="headerM">
+                    <div id="playH">
+                        <img id="logo" src="./img/logo/logo.png" alt="logo">
+                        <img id="sLogo" src="./img/logo/sLogo.png" alt="logo">
+                        <button id="buttonLogo" onclick="">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            Играть
+                        </button>
                     </div>
-                    <div class="moneyButton" id="cashH">
-                        <img src="./img/logo/level.png" width="20" height="20" alt="exp">
-                        <span>12</span>
+                    <div id="menuH">
+                        <div class="menuButton" id="homeH">Главная</div>
+                        <div class="menuButton" id="pokeballH">Покебол</div>
+                        <div class="menuButton" id="persStatsH">Статистика</div>
                     </div>
-                </div>
-                <div id="statusH">
-                    <div id="logoH">
-                        <div id="avatarDiv"></div>
+                    <div id="reserve"></div>
+                    <div id="toolsH">
+                        <div class="menuButton" id="awardsH"><img width="40" height="40" src="./img/logo/shield.png" alt="shield" title="Награды"></div>
+                        <div class="menuButton" id="payH"><img width="50" height="50" src="./img/logo/cards.png" alt="pay" title="Покупки"></div>
                     </div>
-                    <div id="controlH">
-                        <div id="customH">
-                            <div id="customization">
-                                <img src="./img/HeroesP/custom.png" width="20" height="20" alt="customization">
+                    <div id="moneyH">
+                        <div class="moneyButton" id="expH">
+                            <img src="./img/logo/cash.png" width="20" height="20" alt="cash">
+                            <span>1000</span>
+                        </div>
+                        <div class="moneyButton" id="cashH">
+                            <img src="./img/logo/level.png" width="20" height="20" alt="exp">
+                            <span>12</span>
+                        </div>
+                    </div>
+                    <div id="statusH">
+                        <div id="logoH">
+                            <div id="avatarDiv"></div>
+                        </div>
+                        <div id="controlH">
+                            <div id="customH">
+                                <div id="customization">
+                                    <img src="./img/HeroesP/custom.png" width="20" height="20" alt="customization">
+                                </div>
+                            </div>
+                            <div id="loginH">
+                                <span id="userLogin">SK Emercasa</span>
+                                <span id="activeMouseSpan">Online</span>
                             </div>
                         </div>
-                        <div id="loginH">
-                            <span id="userLogin">SK Emercasa</span>
-                            <span id="activeMouseSpan">Online</span>
-                        </div>
                     </div>
                 </div>
-            </div>
-            <div id="windowM">
-                <div id="menuW">
-                    <div id="mainMenuW"></div>
-                    <div id="expMenuW"></div>
+                <div id="windowM">
+                    <div id="menuW">
+                        <div id="mainMenuW"></div>
+                        <div id="expMenuW"></div>
+                    </div>
+                    <div id="chatW"></div>
                 </div>
-                <div id="chatW"></div>
             </div>
-        </div>
-    </header>
-    <script src="/socket.io/socket.io.js"></script>
+        </header>
+    </div>
+    <div id="gameplace">
+
+    </div>
+    <!-- <script src="/socket.io/socket.io.js"></script>
+    <script src="./js/socket.js"></script> -->
     <script src="./js/buttonPlay.js"></script>
     <script src="./js/status.js"></script>
 </body>
