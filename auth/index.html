@@ -4,56 +4,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/loader.css">
-    <link rel="stylesheet" href="./css/style.css">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Pokemon</title>
 </head>
 
 <body>
     <header>
-        <div id="ring" class="ring">
-            Loading
-            <span></span>
-        </div>
+        <!-- Форма регистрации -->
         <form id="reg" method="POST" action="/reg" onsubmit="return validateformReg();">
+            <!-- Структурный блок -->
             <div id="regTop"></div>
+            <!-- Основной блок формы -->
             <div id="regMid">
                 <label id="lar1" for="regEmailId">Email</label>
-                <input type="email" name="regEmail" id="regEmailId">
+                <input class="collForms" type="email" name="regEmail" id="regEmailId">
                 <label id="lar2" for="regNickId">Логин</label>
-                <input type="text" name="regNick" id="regNickId">
+                <input class="collForms" type="text" name="regNick" id="regNickId">
                 <label id="lar3" for="regPassId">Пароль</label>
-                <input type="password" name="regPass" id="regPassId">
+                <input class="collForms" type="password" name="regPass" id="regPassId">
                 <label id="lar4" for="regCPassId">Подтвердите пароль</label>
-                <input type="password" name="regCPass" id="regCPassId">
+                <input class="collForms" type="password" name="regCPass" id="regCPassId">
                 <button type="submit" id="regBtnId">Регистрация</button>
                 <p id="authTo">Вход</p>
                 <p>Забыли пароль?</p>
             </div>
+            <!-- Блок для вывода системных сообщений -->
             <div id="regBot">
                 <div id="fail"></div>
             </div>
         </form>
+        <!-- Форма авторизации -->
         <form id="auth" method="POST" action="/auth" onsubmit="return validateformAuth()">
+            <!-- Структурный блок -->
             <div id="authTop"></div>
+            <!-- Основной блок формы -->
             <div id="authMid">
                 <label id="laa1" for="authNickId">Логин</label>
-                <input type="text" name="authNick" id="authNickId">
+                <input class="collForms" type="text" name="authNick" id="authNickId">
                 <label id="laa2" for="authPassId">Пароль</label>
-                <input type="password" name="authPass" id="authPassId">
+                <input class="collForms" type="password" name="authPass" id="authPassId">
                 <button type="submit" id="authBtnId">Войти</button>
                 <p id="regTo">Регистрация</p>
                 <p id="clearPlace">Очистить</p>
             </div>
+            <!-- Блок для вывода системных сообщений -->
             <div id="authBot">
                 <div id="failA"></div>
             </div>
         </form>
+        <!-- Блок фона страницы -->
         <div id="bgForm"></div>
+        <script src="./js/main.js"></script>
+        <script src="./js/ledForm.js"></script>
+        <script src="./js/validateForms.js"></script>
     </header>
-    <script src="./main.js"></script>
 </body>
-
-</html>

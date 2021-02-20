@@ -2,8 +2,8 @@ const express = require('express'),
     app = express(),
     httpsOptions = require('./cert/https'),
     https = require('https').Server(httpsOptions, app),
-    // io = require('socket.io')(https),
-    // dataChar = require('./Data/DataChar'),
+    io = require('socket.io')(https),
+    dataChar = require('./Data/DataChar'),
     bodyParser = require('body-parser'),
     generator = require('generate-password'),
     pgp = require("pg-promise")( /*options*/ );
@@ -20,6 +20,7 @@ const db = pgp(cn);
 app.use("/", express.static(__dirname + "../../auth"));
 app.use("/not/", express.static(__dirname + "../../auth/authNot"));
 app.use("/notauth/", express.static(__dirname + "../../auth/authLnot"));
+app.use("/Conflict", express.static(__dirname + "../../409"));
 
 
 const urlPars = bodyParser.urlencoded({ extended: false });
@@ -39,7 +40,7 @@ app.post("/reg", urlPars, function(req, res) {
             db.query(queryOn, [req.body.regNick, req.body.regPass, req.body.regEmail, new Date(), token])
                 .then(function(data) {
                     console.log(data);
-                    app.use(`/game/${token}/${nickname}`, express.static(__dirname + "../../main"));
+                    app.use(`/game/${token}/${req.body.regNick}`, express.static(__dirname + "../../main"));
                     res.redirect(302, `../game/${token}/${req.body.regNick}`);
                 })
                 .catch(function(error) {
@@ -49,8 +50,8 @@ app.post("/reg", urlPars, function(req, res) {
         });
 });
 app.post("/auth", urlPars, function(req, res) {
-    const queryIn = 'SELECT * FROM users WHERE nickname = $1 AND password = $2 LIMIT 1;';
-    db.one(queryIn, [req.body.authNick, req.body.authPass])
+    const queryIn = 'SELECT * FROM users WHERE nickname = $1 AND password = $2 AND online = $3 LIMIT 1;';
+    db.one(queryIn, [req.body.authNick, req.body.authPass, false])
         .then(function(data) {
             console.log(data);
             app.use(`/game/${data.token}/${data.nickname}`, express.static(__dirname + "../../main"));
@@ -62,15 +63,33 @@ app.post("/auth", urlPars, function(req, res) {
         })
 });
 
-// io.on('connection', (socket) => {
-//     console.log('a user connected');
+io.on('connection', socket => {
+    console.log(`${socket.handshake.query.name} connected`);
+    let OnUserTemp = socket.handshake.query.name.trim();
+    const changeOnline = 'UPDATE users SET online = $2 WHERE nickname = $1 RETURNING nickname, online;';
+    db.one(changeOnline, [OnUserTemp, true])
+        .then(function(data) {
+            console.log(data);
+        })
+        .catch(function(error) {
+            console.log("ERROR:", error);
+        });
 
+    socket.send(dataChar);
 
-
-//     socket.on('disconnect', () => {
-//         console.log('user disconnected');
-//     });
-// });
+    socket.on('disconnect', () => {
+        console.log(`${socket.handshake.query.name} disconnected`);
+        let OffUserTemp = socket.handshake.query.name.trim();
+        const changeOffline = 'UPDATE users SET online = $2 WHERE nickname = $1 RETURNING nickname, online;';
+        db.one(changeOffline, [OffUserTemp, false])
+            .then(function(data) {
+                console.log(data);
+            })
+            .catch(function(error) {
+                console.log("ERROR:", error);
+            });
+    });
+});
 
 https.listen(3443, "192.168.1.100", () => {
     console.log("Server running to 192.168.1.100:3443")

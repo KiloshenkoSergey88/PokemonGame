@@ -9,7 +9,6 @@ header {
     position: fixed;
     display: grid;
     grid-template-columns: 2fr 8fr;
-    background-image: url(../img/bgLoader.png);
     background-size: cover;
 }
 
@@ -103,7 +102,7 @@ input {
 }
 
 #auth {
-    display: none;
+    display: flex;
     flex-direction: column;
     background-color: #970A12;
 }
@@ -111,6 +110,7 @@ input {
 #bgForm {
     height: 100%;
     background-size: cover;
+    background-image: url('../img/bgLogin.jpg');
 }
 
 #fail,
