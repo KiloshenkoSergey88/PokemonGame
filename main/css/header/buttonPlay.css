@@ -1,0 +1,6 @@
+#buttonPlay {
+    width: 15vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

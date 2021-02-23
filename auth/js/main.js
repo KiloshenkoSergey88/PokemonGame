@@ -4,7 +4,7 @@ const //определяем переменные
     authTo = document.getElementById('authTo'), // кнопка смены блока на авторизацию
     regTo = document.getElementById('regTo'), // кнопка смены блока на регистрацию
     reg = document.getElementById('reg'), // форма регистрации
-    auth = document.getElementById('auth'); // орма авторизации
+    auth = document.getElementById('auth'); // форма авторизации
 
 function collNull() { // функция присваевает коллекции значение "null"
     for (const el of collForms) {
@@ -23,9 +23,3 @@ regTo.onclick = () => { // выбор формы для регистрации
     auth.style.display = "none";
     reg.style.display = "flex";
 };
-
-// setTimeout(() => {
-//     bgForm.style.backgroundImage = "url(./img/bgLogin.jpg)";
-//     ring.style.display = "none";
-//     auth.style.display = "flex";
-// }, 3222);

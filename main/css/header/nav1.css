@@ -1,0 +1,9 @@
+#nav1 {
+    width: 32vw;
+    display: flex;
+    align-items: center;
+}
+
+#nav1 button {
+    margin-left: 25px;
+}

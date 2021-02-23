@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/header/buttonPlay.css">
+    <link rel="stylesheet" href="./css/header/nav1.css">
+    <link rel="stylesheet" href="./css/header/nav2.css">
+    <link rel="stylesheet" href="./css/header/resource.css">
+    <link rel="stylesheet" href="./css/header/info.css">
+    <link rel="stylesheet" href="./css/main/content.css">
+    <link rel="stylesheet" href="./css/main/content/collection/collCnt.css">
+    <link rel="stylesheet" href="./css/main/content/firstCnt.css">
+    <link rel="stylesheet" href="./css/main/content/statCnt.css">
+    <link rel="stylesheet" href="./css/main/content/shieldCnt.css">
+    <link rel="stylesheet" href="./css/main/content/payCnt.css">
+    <link rel="stylesheet" href="./css/main/content/playCnt.css">
+    <link rel="stylesheet" href="./css/main/content/collection/collCntInside.css">
+    <script src="/socket.io/socket.io.js"></script>
+    <title>Pokemon</title>
+</head>
+
+<body>
+    <!-- Обложка для страницы -->
+    <div id="wrapper">
+        <!-- 🐬Начало верхней панели -->
+        <div id="header">
+            <!-- блок для отображения,в меню, кнопки "Играть" -->
+            <div id="buttonPlay">
+                <!-- кнопка для отображения контента запуска игры -->
+                <button id="playBtn" class="isAllbuttons">Играть</button>
+            </div>
+            <!-- блок для отображения меню главных кнопок -->
+            <div id="nav1">
+                <!-- кнопка для отображения контента главной страницы -->
+                <button class="isAllbuttons" id="firstBtn">Главная</button>
+                <!-- кнопка для отображения контента настраиваемой коллекции -->
+                <button class="isAllbuttons" id="collBtn">Коллекция</button>
+                <!-- кнопка для отображения контента статистики игрока -->
+                <button class="isAllbuttons" id="statBtn">Статистика</button>
+            </div>
+            <!-- блок для отображения дополнительного меню -->
+            <div id="nav2">
+                <!-- кнопка для отображения контента наград игрока -->
+                <button><img class="isAllbuttons" id="shieldBtn" width="40" height="40" src="./img/logo/shield.png" alt="shield" title="Награды"></button>
+                <!-- кнопка для отображения контента магазина для игрока -->
+                <button><img class="isAllbuttons" id="payBtn" width="50" height="50" src="./img/logo/cards.png" alt="pay" title="Покупки"></button>
+            </div>
+            <!-- блок для отображения ресурсов игрока -->
+            <div id="resource">
+                <!-- блок-вставка для семантики разметки -->
+                <div>
+                    <!-- блок для отображения иконки и данных по состоянию игровой валюты игрока -->
+                    <div>
+                        <img src="./img/logo/cash.png" alt="cash">
+                        <span>1000</span>
+                    </div>
+                    <!-- блок для отображения иконки и данных по состоянию текущего уровня игрока -->
+                    <div>
+                        <img src="./img/logo/level.png" alt="exp">
+                        <span>12</span>
+                    </div>
+                </div>
+            </div>
+            <!-- блок для отображения информации  аватара, имени и статуса сессии игрока -->
+            <div id="info">
+                <!-- блок-вставка для семантики разметки -->
+                <div id="avatar">
+                    <!-- блок для отображения аватара игрока -->
+                    <div id="avatarDiv"></div>
+                </div>
+                <!-- блок-вставка для семантики разметки -->
+                <div id="nickStat">
+                    <!-- елемент для отображения имени игрока -->
+                    <span id="userLogin">Emercasa</span>
+                    <!-- елемент для отображения статуса сессии игрока -->
+                    <span id="activeMouseSpan">Online</span>
+                </div>
+            </div>
+            <!-- 🐬Конец верхней панели -->
+        </div>
+        <!-- ⚽Начало контента для отображения всех блоков "content" -->
+        <div id="main">
+            <!-- блок для отображения страниц выбираемых по кнопкам панели меню -->
+            <div id="content">
+                <!-- блок-подвязка под кнопку "mainBtn" -->
+                <div class="blocksCnt" id="firstCnt">Я блок Главная</div>
+                <!-- блок-подвязка под кнопку "collBtn" -->
+                <div class="blocksCnt" id="collCnt">
+                    <div id="collMenu">
+                        <div>
+                            <button id="newPokeball">Новый Покеболл</button>
+                            <button>Коллекция Покемонов</button>
+                        </div>
+                        <div></div>
+                    </div>
+                    <div id="collWorkspace">
+                        <div id="stageCWS">
+                            <div>1</div>
+                            <div>2</div>
+                            <div>3</div>
+                            <div>4</div>
+                            <div>5</div>
+                        </div>
+                        <div id="buttonCWS">
+                            <button>Выбрать</button>
+                            <button>Удалить</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- блок-подвязка под кнопки блока (коллекция)"collCnt" -->
+                <div class="blocksCnt" id="collCntInside">
+                    <div id="collInsideMenu">
+                        <div id="collInsideMenu1">
+                            <div id="collInsideMenuStat">
+                                <div id="collInsideMenuStatHead">
+                                    <div id="collInsideMenuStatImg"></div>
+                                    <div>NAME</div>
+                                </div>
+                                <div id="collInsideMenuStatData">VALUE</div>
+                            </div>
+                            <div id="collInsideMenuBtn"><button>Выбрать</button></div>
+                        </div>
+                        <div id="collInsideMenu2">2</div>
+                        <div id="collInsideMenu3">
+                            <button class="doneBtnBotCIM" id="forEditorCIM">ГотовоE</button>
+                            <button class="doneBtnBotCIM" id="forCreateCIM">ГотовоC</button>
+                            <button class="doneBtnBotCIM" id="forviewCIM">ГотовоV</button>
+                        </div>
+                    </div>
+                    <div id="collInsideWorkspace"></div>
+                </div>
+                <!-- блок-подвязка под кнопку "statBtn" -->
+                <div class="blocksCnt" id="statCnt">Я блок Статистика</div>
+                <!-- блок-подвязка под кнопку "shieldBtn" -->
+                <div class="blocksCnt" id="shieldCnt">Я блок Награды</div>
+                <!-- блок-подвязка под кнопку "payBtn" -->
+                <div class="blocksCnt" id="payCnt">Я блок Покупки</div>
+                <!-- блок-подвязка под кнопку "playBtn" -->
+                <div class="blocksCnt" id="playCnt">Я блок Играть</div>
+            </div>
+            <!-- блок для отображения панели чат-листа игрока -->
+            <div id="chat"></div>
+            <!-- ⚽Конец контента для отображения всех страниц -->
+        </div>
+        <!-- 🍨Начало Футера приложения с дополнительными функциями -->
+        <div id="footer">
+            <!-- 🍨Конец Футера приложения -->
+        </div>
+    </div>
+    <!-- подключения скриптов приложения -->
+    <script src="./js/socket.js"></script>
+    <script src="./js/buttonMain/blocksChange.js"></script>
+    <script src="./js/buttonMain/newPokeballBtn.js"></script>
+    <script src="./js/dataServer/DataPokemons.js"></script>
+</body>
+
+</html>

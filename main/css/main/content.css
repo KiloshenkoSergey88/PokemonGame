@@ -1,0 +1,10 @@
+#content {
+    width: 85vw;
+    background: thistle;
+    height: 84vh;
+}
+
+.blocksCnt {
+    width: inherit;
+    height: inherit;
+}

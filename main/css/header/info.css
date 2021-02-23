@@ -1,0 +1,38 @@
+#info {
+    width: 15vw;
+    display: flex;
+}
+
+#avatar {
+    width: 40vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#avatarDiv {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-image: url(../../img/HeroesP/AshK.png);
+    background-size: cover;
+}
+
+#nickStat {
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#userLogin {
+    font-size: 18px;
+    color: rgba(243, 177, 77, 0.822);
+    margin-left: 10%;
+}
+
+#activeMouseSpan {
+    font-size: 12px;
+    color: chartreuse;
+    margin-left: 10%;
+}

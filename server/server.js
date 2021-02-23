@@ -34,7 +34,7 @@ app.post("/reg", urlPars, function(req, res) {
     db.one(query, [req.body.regNick])
         .then(function(data) {
             console.log(data, req.body.regNick);
-            res.redirect(301, "/not/");
+            res.redirect(301, "/");
         })
         .catch(function() {
             db.query(queryOn, [req.body.regNick, req.body.regPass, req.body.regEmail, new Date(), token])
@@ -59,7 +59,7 @@ app.post("/auth", urlPars, function(req, res) {
         })
         .catch(() => {
             console.log(req.body.authNick, req.body.authPass);
-            res.redirect(301, "/notauth/");
+            res.redirect(301, "/");
         })
 });
 
@@ -70,12 +70,11 @@ io.on('connection', socket => {
     db.one(changeOnline, [OnUserTemp, true])
         .then(function(data) {
             console.log(data);
+            socket.send(dataChar);
         })
         .catch(function(error) {
             console.log("ERROR:", error);
         });
-
-    socket.send(dataChar);
 
     socket.on('disconnect', () => {
         console.log(`${socket.handshake.query.name} disconnected`);

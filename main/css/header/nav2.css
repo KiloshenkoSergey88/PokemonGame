@@ -1,0 +1,11 @@
+#nav2 {
+    width: 32vw;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+#nav2 button {
+    background: none;
+    border: none;
+}

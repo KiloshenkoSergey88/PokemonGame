@@ -1,0 +1,11 @@
+#resource {
+    width: 6vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#resource img {
+    width: 20px;
+    height: 20px;
+}

@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+}
+
+#wrapper {
+    height: 100vh;
+    background: cornflowerblue;
+}
+
+#header {
+    height: 10vh;
+    background: teal;
+    display: flex;
+}
+
+#main {
+    height: 84vh;
+    background: crimson;
+    display: flex;
+}
+
+#footer {
+    height: 6vh;
+    background: coral;
+}
+
+#chat {
+    width: 15vw;
+    background: yellowgreen;
+}

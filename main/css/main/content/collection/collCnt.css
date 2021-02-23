@@ -1,0 +1,42 @@
+#collCnt {
+    display: none;
+}
+
+#collWorkspace {
+    width: 80vw;
+}
+
+#collMenu {
+    width: 20vw;
+    border-right: 1px solid cadetblue;
+}
+
+#collMenu div {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#stageCWS {
+    height: 70%;
+    display: flex;
+}
+
+#stageCWS div {
+    border: 1px solid red;
+    margin: 20px;
+    height: 80px;
+    width: 80px;
+}
+
+#buttonCWS {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#buttonCWS button {
+    margin: 50px;
+}
