@@ -4,7 +4,6 @@ const express = require('express'),
     https = require('https').Server(httpsOptions, app),
     io = require('socket.io')(https),
     dataChar = require('./Data/DataChar'),
-    bodyParser = require('body-parser'),
     generator = require('generate-password'),
     pgp = require("pg-promise")( /*options*/ );
 
@@ -18,12 +17,10 @@ const cn = {
 const db = pgp(cn);
 
 app.use("/", express.static(__dirname + "../../auth"));
-app.use("/not/", express.static(__dirname + "../../auth/authNot"));
-app.use("/notauth/", express.static(__dirname + "../../auth/authLnot"));
 app.use("/Conflict", express.static(__dirname + "../../409"));
 
 
-const urlPars = bodyParser.urlencoded({ extended: false });
+const urlPars = express.urlencoded({ extended: false });
 app.post("/reg", urlPars, function(req, res) {
     const token = generator.generate({
         length: 15,
