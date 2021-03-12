@@ -3,7 +3,9 @@ const express = require('express'),
     httpsOptions = require('./cert/https'),
     https = require('https').Server(httpsOptions, app),
     io = require('socket.io')(https),
-    dataChar = require('./Data/DataChar'),
+    dataChar = require('./Data/DataChar.json'),
+    dataAccessUsers = require('./Data/DataAccessUsers.json'),
+    fs = require('fs'),
     generator = require('generate-password'),
     pgp = require("pg-promise")( /*options*/ );
 
@@ -25,6 +27,7 @@ app.post("/reg", urlPars, function(req, res) {
     const token = generator.generate({
         length: 15,
     });
+    const arrAccessPokemon = new Array(150);
     const query = 'SELECT * FROM users WHERE nickname = $1 LIMIT 1;',
         queryOn = 'INSERT INTO users(nickname, password, email, datereg, token) VALUES($1, $2, $3, $4, $5) RETURNING nickname, token;';
 
@@ -43,7 +46,6 @@ app.post("/reg", urlPars, function(req, res) {
                 .catch(function(error) {
                     console.log("ERROR:", error);
                 });
-            console.log(req.body);
         });
 });
 app.post("/auth", urlPars, function(req, res) {

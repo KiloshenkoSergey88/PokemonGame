@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
@@ -33,7 +33,7 @@
             <!-- блок для отображения,в меню, кнопки "Играть" -->
             <div id="buttonPlay">
                 <!-- кнопка для отображения контента запуска игры -->
-                <button id="playBtn" class="isAllbuttons">Играть</button>
+                <button id="playBtn" class="isAllbuttons" disabled="true">Играть</button>
             </div>
             <!-- блок для отображения меню главных кнопок -->
             <div id="nav1">
@@ -101,14 +101,21 @@
                     </div>
                     <div id="collWorkspace">
                         <div id="stageCWS">
-                            <div>1</div>
-                            <div>2</div>
-                            <div>3</div>
-                            <div>4</div>
-                            <div>5</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <div id="spanCWS">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
                         </div>
                         <div id="buttonCWS">
-                            <button>Выбрать</button>
+                            <button>Изменить</button>
                             <button>Удалить</button>
                         </div>
                     </div>
@@ -119,17 +126,37 @@
                         <div id="collInsideMenu1">
                             <div id="collInsideMenuStat">
                                 <div id="collInsideMenuStatHead">
-                                    <div id="collInsideMenuStatImg"></div>
-                                    <div>NAME</div>
+                                    <div id="collInsideMenuStatImg"><img id="iconCIMSI" src="" alt=" "></div>
+                                    <div id="collInsideMenuStatName"></div>
                                 </div>
-                                <div id="collInsideMenuStatData">VALUE</div>
+                                <div id="collInsideMenuStatData">
+                                    <span>Уровень</span><span id="CIMSDL"></span>
+                                    <span>Тип 1</span><span id="CIMSDT"></span>
+                                    <span>Тип 2</span><span id="CIMSDTT"></span>
+                                    <span>Жизни</span><span id="CIMSDH"></span>
+                                    <span>Атака</span><span id="CIMSDA"></span>
+                                    <span>Защита</span><span id="CIMSDD"></span>
+                                    <span>Скорость</span><span id="CIMSDS"></span>
+                                    <span>Ультимейт</span><span id="CIMSDU"></span>
+                                    <span>Общее</span><span id="CIMSDO"></span>
+                                </div>
                             </div>
-                            <div id="collInsideMenuBtn"><button>Выбрать</button></div>
+                            <div id="collInsideMenuBtn">
+                                <button id="СIMBA">Добавить</button>
+                                <button id="CIMBD">Удалить</button>
+                            </div>
                         </div>
-                        <div id="collInsideMenu2">2</div>
+                        <div id="collInsideMenu2">
+                            <div id="newPokeballBody1"></div>
+                            <div id="newPokeballName1"></div>
+                            <div id="newPokeballBody2"></div>
+                            <div id="newPokeballName2"></div>
+                            <div id="newPokeballBody3"></div>
+                            <div id="newPokeballName3"></div>
+                            <p><input type="text" name="newPokeballName" id="newPokeballName" maxlength="15"></p>
+                        </div>
                         <div id="collInsideMenu3">
-                            <button class="doneBtnBotCIM" id="forEditorCIM">ГотовоE</button>
-                            <button class="doneBtnBotCIM" id="forCreateCIM">ГотовоC</button>
+                            <button class="doneBtnBotCIM" id="forCreateCIM">Готово</button>
                             <button class="doneBtnBotCIM" id="forviewCIM">ГотовоV</button>
                         </div>
                     </div>
@@ -154,10 +181,24 @@
         </div>
     </div>
     <!-- подключения скриптов приложения -->
-    <script src="./js/socket.js"></script>
+    <script src="./js/dataServer/newCard.js"></script>
+    <script src="./js/WebSocket.js"></script>
+    <script src="./js/dataServer/pokeballEditor.js"></script>
+    <script src="./js/garbageCollector/garbageCollectorForWorkspace.js"></script>
+    <script src="./js/garbageCollector/garbageCollectorForContent.js"></script>
+    <script src="./js/garbageCollector/garbageCollectorForCIM2.js"></script>
     <script src="./js/buttonMain/blocksChange.js"></script>
     <script src="./js/buttonMain/newPokeballBtn.js"></script>
     <script src="./js/dataServer/DataPokemons.js"></script>
+    <script src="./js/collection/newPokeballAdd.js"></script>
+    <script src="./js/pokeball/newPokeballCreate.js"></script>
+    <script src="./js/buttonMain/macroButtonCancel.js"></script>
+    <script src="./js/collection/selectPokeball.js"></script>
+    <script src="./js/collection/changePokeball.js"></script>
+    <script src="./js/collection/deletePokeball.js"></script>
+    <script src="./js/playingField/buttonMenuPlay.js"></script>
+    <!-- загрузка личного контента пользователей -->
+    <script src="./js/dataServer/SaveTheGame/download/accessCardPokemon.js"></script>
 </body>
 
 </html>

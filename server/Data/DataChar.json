@@ -1,5 +1,4 @@
-    [       
-        {
+    [{
             "id": 0,
             "name": "Bulbasaur",
             "body": "./img/000Bulbasaur.png",
@@ -8,21 +7,21 @@
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -35,21 +34,21 @@
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -62,21 +61,21 @@
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -89,21 +88,21 @@
                 "fire",
                 "normal"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -116,21 +115,21 @@
                 "fire",
                 "normal"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -143,21 +142,21 @@
                 "fire",
                 "fly"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -170,21 +169,21 @@
                 "water",
                 "normal"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -197,21 +196,21 @@
                 "water",
                 "normal"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -224,21 +223,21 @@
                 "water",
                 "normal"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -251,21 +250,21 @@
                 "grass",
                 "bug"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -278,21 +277,21 @@
                 "grass",
                 "ground"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -305,21 +304,21 @@
                 "grass",
                 "fly"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -332,21 +331,21 @@
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -354,26 +353,26 @@
             "id": 13,
             "name": "Kakuna",
             "body": "./img/013Kakuna.png",
-            "level": "1",
+            "level": "2",
             "type": [
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -381,26 +380,26 @@
             "id": 14,
             "name": "Beedrill",
             "body": "./img/014Beedrill.png",
-            "level": "1",
+            "level": "3",
             "type": [
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -413,21 +412,21 @@
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -435,26 +434,26 @@
             "id": 16,
             "name": "Pidgeotto",
             "body": "./img/016Pidgeotto.png",
-            "level": "1",
+            "level": "2",
             "type": [
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -462,26 +461,26 @@
             "id": 17,
             "name": "Pidgeot",
             "body": "./img/017Pidgeot.png",
-            "level": "1",
+            "level": "3",
             "type": [
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -494,21 +493,21 @@
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -516,26 +515,26 @@
             "id": 19,
             "name": "Raticate",
             "body": "./img/019Raticate.png",
-            "level": "1",
+            "level": "2",
             "type": [
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -548,21 +547,21 @@
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -570,26 +569,26 @@
             "id": 21,
             "name": "Fearow",
             "body": "./img/021Fearow.png",
-            "level": "1",
+            "level": "2",
             "type": [
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -602,21 +601,21 @@
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -624,26 +623,26 @@
             "id": 23,
             "name": "Arbok",
             "body": "./img/023Arbok.png",
-            "level": "1",
+            "level": "2",
             "type": [
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -656,21 +655,21 @@
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -678,26 +677,26 @@
             "id": 25,
             "name": "Raichu",
             "body": "./img/025Raichu.png",
-            "level": "1",
+            "level": "2",
             "type": [
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -710,21 +709,21 @@
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -732,26 +731,26 @@
             "id": 27,
             "name": "Sandslash",
             "body": "./img/027Sandslash.png",
-            "level": "1",
+            "level": "2",
             "type": [
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -764,21 +763,21 @@
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -786,26 +785,26 @@
             "id": 29,
             "name": "Nidorina",
             "body": "./img/029Nidorina.png",
-            "level": "1",
+            "level": "2",
             "type": [
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -813,26 +812,26 @@
             "id": 30,
             "name": "Nidoqueen",
             "body": "./img/030Nidoqueen.png",
-            "level": "1",
+            "level": "3",
             "type": [
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -845,21 +844,21 @@
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -867,26 +866,26 @@
             "id": 32,
             "name": "Nidorino",
             "body": "./img/032Nidorino.png",
-            "level": "1",
+            "level": "2",
             "type": [
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -894,26 +893,26 @@
             "id": 33,
             "name": "Nidoking",
             "body": "./img/033Nidoking.png",
-            "level": "1",
+            "level": "3",
             "type": [
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -926,21 +925,21 @@
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -948,26 +947,26 @@
             "id": 35,
             "name": "Clefable",
             "body": "./img/035Clefable.png",
-            "level": "1",
+            "level": "2",
             "type": [
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -980,21 +979,21 @@
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -1002,26 +1001,26 @@
             "id": 37,
             "name": "Ninetales",
             "body": "./img/037Ninetales.png",
-            "level": "1",
+            "level": "2",
             "type": [
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -1034,21 +1033,21 @@
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -1056,26 +1055,26 @@
             "id": 39,
             "name": "Wigglytuff",
             "body": "./img/039Wigglytuff.png",
-            "level": "1",
+            "level": "2",
             "type": [
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -1088,21 +1087,21 @@
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -1110,26 +1109,26 @@
             "id": 41,
             "name": "Golbat",
             "body": "./img/041Golbat.png",
-            "level": "1",
+            "level": "2",
             "type": [
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -1142,21 +1141,21 @@
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -1164,26 +1163,26 @@
             "id": 43,
             "name": "Gloom",
             "body": "./img/043Gloom.png",
-            "level": "1",
+            "level": "2",
             "type": [
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -1191,26 +1190,26 @@
             "id": 44,
             "name": "Vileplume",
             "body": "./img/044Vileplume.png",
-            "level": "1",
+            "level": "3",
             "type": [
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -1223,21 +1222,21 @@
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -1245,26 +1244,26 @@
             "id": 46,
             "name": "Parasect",
             "body": "./img/046Parasect.png",
-            "level": "1",
+            "level": "2",
             "type": [
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -1277,21 +1276,21 @@
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -1299,26 +1298,26 @@
             "id": 48,
             "name": "Venomoth",
             "body": "./img/048Venomoth.png",
-            "level": "1",
+            "level": "2",
             "type": [
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -1331,21 +1330,21 @@
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -1353,26 +1352,26 @@
             "id": 50,
             "name": "Dugtrio",
             "body": "./img/050Dugtrio.png",
-            "level": "1",
+            "level": "2",
             "type": [
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -1385,21 +1384,21 @@
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -1407,26 +1406,26 @@
             "id": 52,
             "name": "Persian",
             "body": "./img/052Persian.png",
-            "level": "1",
+            "level": "2",
             "type": [
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -1439,21 +1438,21 @@
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -1461,26 +1460,26 @@
             "id": 54,
             "name": "Golduck",
             "body": "./img/054Golduck.png",
-            "level": "1",
+            "level": "2",
             "type": [
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -1493,21 +1492,21 @@
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -1515,26 +1514,26 @@
             "id": 56,
             "name": "Primeape",
             "body": "./img/056Primeape.png",
-            "level": "1",
+            "level": "2",
             "type": [
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -1547,21 +1546,21 @@
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -1569,26 +1568,26 @@
             "id": 58,
             "name": "Arcanine",
             "body": "./img/058Arcanine.png",
-            "level": "1",
+            "level": "2",
             "type": [
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -1601,21 +1600,21 @@
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -1623,26 +1622,26 @@
             "id": 60,
             "name": "Poliwhirl",
             "body": "./img/060Poliwhirl.png",
-            "level": "1",
+            "level": "2",
             "type": [
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -1650,26 +1649,26 @@
             "id": 61,
             "name": "Poliwrath",
             "body": "./img/061Poliwrath.png",
-            "level": "1",
+            "level": "3",
             "type": [
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -1682,21 +1681,21 @@
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -1704,26 +1703,26 @@
             "id": 63,
             "name": "Kadabra",
             "body": "./img/063Kadabra.png",
-            "level": "1",
+            "level": "2",
             "type": [
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -1731,26 +1730,26 @@
             "id": 64,
             "name": "Alakazam",
             "body": "./img/064Alakazam.png",
-            "level": "1",
+            "level": "3",
             "type": [
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -1763,21 +1762,21 @@
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -1785,26 +1784,26 @@
             "id": 66,
             "name": "Machoke",
             "body": "./img/066Machoke.png",
-            "level": "1",
+            "level": "2",
             "type": [
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -1812,26 +1811,26 @@
             "id": 67,
             "name": "Machamp",
             "body": "./img/067Machamp.png",
-            "level": "1",
+            "level": "3",
             "type": [
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -1844,21 +1843,21 @@
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -1866,26 +1865,26 @@
             "id": 69,
             "name": "Weepinbell",
             "body": "./img/069Weepinbell.png",
-            "level": "1",
+            "level": "2",
             "type": [
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -1893,26 +1892,26 @@
             "id": 70,
             "name": "Victreebel",
             "body": "./img/070Victreebel.png",
-            "level": "1",
+            "level": "3",
             "type": [
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -1925,21 +1924,21 @@
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -1947,26 +1946,26 @@
             "id": 72,
             "name": "Tentacruel",
             "body": "./img/072Tentacruel.png",
-            "level": "1",
+            "level": "2",
             "type": [
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -1979,21 +1978,21 @@
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -2001,26 +2000,26 @@
             "id": 74,
             "name": "Graveler",
             "body": "./img/074Graveler.png",
-            "level": "1",
+            "level": "2",
             "type": [
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -2028,26 +2027,26 @@
             "id": 75,
             "name": "Golem",
             "body": "./img/075Golem.png",
-            "level": "1",
+            "level": "3",
             "type": [
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -2060,21 +2059,21 @@
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -2082,26 +2081,26 @@
             "id": 77,
             "name": "Rapidash",
             "body": "./img/077Rapidash.png",
-            "level": "1",
+            "level": "2",
             "type": [
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -2114,21 +2113,21 @@
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -2136,26 +2135,26 @@
             "id": 79,
             "name": "Slowbro",
             "body": "./img/079Slowbro.png",
-            "level": "1",
+            "level": "2",
             "type": [
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -2168,21 +2167,21 @@
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -2190,26 +2189,26 @@
             "id": 81,
             "name": "Magneton",
             "body": "./img/081Magneton.png",
-            "level": "1",
+            "level": "2",
             "type": [
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -2222,21 +2221,21 @@
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -2249,21 +2248,21 @@
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -2271,26 +2270,26 @@
             "id": 84,
             "name": "Dodrio",
             "body": "./img/084Dodrio.png",
-            "level": "1",
+            "level": "2",
             "type": [
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -2303,21 +2302,21 @@
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -2325,26 +2324,26 @@
             "id": 86,
             "name": "Dewgong",
             "body": "./img/086Dewgong.png",
-            "level": "1",
+            "level": "2",
             "type": [
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -2357,21 +2356,21 @@
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -2379,26 +2378,26 @@
             "id": 88,
             "name": "Muk",
             "body": "./img/088Muk.png",
-            "level": "1",
+            "level": "2",
             "type": [
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -2411,21 +2410,21 @@
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -2433,26 +2432,26 @@
             "id": 90,
             "name": "Cloyster",
             "body": "./img/090Cloyster.png",
-            "level": "1",
+            "level": "2",
             "type": [
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -2465,21 +2464,21 @@
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -2487,26 +2486,26 @@
             "id": 92,
             "name": "Haunter",
             "body": "./img/092Haunter.png",
-            "level": "1",
+            "level": "2",
             "type": [
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -2514,26 +2513,26 @@
             "id": 93,
             "name": "Gengar",
             "body": "./img/093Gengar.png",
-            "level": "1",
+            "level": "3",
             "type": [
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -2546,21 +2545,21 @@
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -2573,21 +2572,21 @@
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -2595,26 +2594,26 @@
             "id": 96,
             "name": "Hypno",
             "body": "./img/096Hypno.png",
-            "level": "1",
+            "level": "2",
             "type": [
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -2627,21 +2626,21 @@
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -2649,26 +2648,26 @@
             "id": 98,
             "name": "Kingler",
             "body": "./img/098Kingler.png",
-            "level": "1",
+            "level": "2",
             "type": [
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -2681,21 +2680,21 @@
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -2703,26 +2702,26 @@
             "id": 100,
             "name": "Electrode",
             "body": "./img/100Electrode.png",
-            "level": "1",
+            "level": "2",
             "type": [
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -2735,21 +2734,21 @@
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -2757,26 +2756,26 @@
             "id": 102,
             "name": "Exeggutor",
             "body": "./img/102Exeggutor.png",
-            "level": "1",
+            "level": "2",
             "type": [
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -2789,21 +2788,21 @@
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -2811,26 +2810,26 @@
             "id": 104,
             "name": "Marowak",
             "body": "./img/104Marowak.png",
-            "level": "1",
+            "level": "2",
             "type": [
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -2843,21 +2842,21 @@
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -2865,26 +2864,26 @@
             "id": 106,
             "name": "Hitmonchan",
             "body": "./img/106Hitmonchan.png",
-            "level": "1",
+            "level": "2",
             "type": [
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -2897,21 +2896,21 @@
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -2924,21 +2923,21 @@
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -2946,26 +2945,26 @@
             "id": 109,
             "name": "Weezing",
             "body": "./img/109Weezing.png",
-            "level": "1",
+            "level": "2",
             "type": [
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -2978,21 +2977,21 @@
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -3000,26 +2999,26 @@
             "id": 111,
             "name": "Rhydon",
             "body": "./img/111Rhydon.png",
-            "level": "1",
+            "level": "2",
             "type": [
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -3032,21 +3031,21 @@
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -3054,26 +3053,26 @@
             "id": 113,
             "name": "Tangela",
             "body": "./img/113Tangela.png",
-            "level": "1",
+            "level": "2",
             "type": [
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -3086,21 +3085,21 @@
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -3113,21 +3112,21 @@
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -3135,26 +3134,26 @@
             "id": 116,
             "name": "Seadra",
             "body": "./img/116Seadra.png",
-            "level": "1",
+            "level": "2",
             "type": [
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -3167,21 +3166,21 @@
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -3189,26 +3188,26 @@
             "id": 118,
             "name": "Seaking",
             "body": "./img/118Seaking.png",
-            "level": "1",
+            "level": "2",
             "type": [
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -3221,21 +3220,21 @@
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -3243,26 +3242,26 @@
             "id": 120,
             "name": "Starmie",
             "body": "./img/120Starmie.png",
-            "level": "1",
+            "level": "2",
             "type": [
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -3275,21 +3274,21 @@
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -3302,21 +3301,21 @@
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -3329,21 +3328,21 @@
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -3356,21 +3355,21 @@
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -3383,21 +3382,21 @@
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -3410,21 +3409,21 @@
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -3437,21 +3436,21 @@
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -3464,21 +3463,21 @@
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -3486,26 +3485,26 @@
             "id": 129,
             "name": "Gyarados",
             "body": "./img/129Gyarados.png",
-            "level": "1",
+            "level": "2",
             "type": [
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -3518,21 +3517,21 @@
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -3545,21 +3544,21 @@
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -3572,21 +3571,21 @@
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -3594,26 +3593,26 @@
             "id": 133,
             "name": "Vaporeon",
             "body": "./img/133Vaporeon.png",
-            "level": "1",
+            "level": "2",
             "type": [
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -3621,26 +3620,26 @@
             "id": 134,
             "name": "Jolteon",
             "body": "./img/134Jolteon.png",
-            "level": "1",
+            "level": "2",
             "type": [
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -3648,26 +3647,26 @@
             "id": 135,
             "name": "Flareon",
             "body": "./img/135Flareon.png",
-            "level": "1",
+            "level": "2",
             "type": [
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -3680,21 +3679,21 @@
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -3707,21 +3706,21 @@
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -3729,26 +3728,26 @@
             "id": 138,
             "name": "Omastar",
             "body": "./img/138Omastar.png",
-            "level": "1",
+            "level": "2",
             "type": [
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -3761,21 +3760,21 @@
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -3783,26 +3782,26 @@
             "id": 140,
             "name": "Kabutops",
             "body": "./img/140Kabutops.png",
-            "level": "1",
+            "level": "2",
             "type": [
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -3815,21 +3814,21 @@
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -3842,21 +3841,21 @@
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -3869,21 +3868,21 @@
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -3896,21 +3895,21 @@
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -3923,21 +3922,21 @@
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -3950,21 +3949,21 @@
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -3972,26 +3971,26 @@
             "id": 147,
             "name": "Dragonair",
             "body": "./img/147Dragonair.png",
-            "level": "1",
+            "level": "2",
             "type": [
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -3999,26 +3998,26 @@
             "id": 148,
             "name": "Dragonite",
             "body": "./img/148Dragonite.png",
-            "level": "1",
+            "level": "3",
             "type": [
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -4031,21 +4030,21 @@
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         },
 
@@ -4053,26 +4052,26 @@
             "id": 150,
             "name": "Mewtwo",
             "body": "./img/150Mewtwo.png",
-            "level": "1",
+            "level": "2",
             "type": [
                 "grass",
                 "poison"
             ],
-            "stats" : {
+            "stats": {
                 "HP": "2",
                 "attack": "3",
                 "defend": "2",
                 "typeAttack": "3",
-                "speed" : "3",
+                "speed": "3",
                 "allStats": "3"
             },
-            "force" : {
-                "grassA" :"3",
-                "poisonA" :"3",
-                "ultimateA" :"6",
-                "block" : "2",
-                "addBlock" : "4",
-                "autoA" : "2"
+            "force": {
+                "grassA": "3",
+                "poisonA": "3",
+                "ultimateA": "6",
+                "block": "2",
+                "addBlock": "4",
+                "autoA": "2"
             }
         }
     ]

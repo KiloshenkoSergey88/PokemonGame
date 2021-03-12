@@ -20,19 +20,34 @@
 }
 
 #stageCWS {
-    height: 70%;
+    height: 125px;
     display: flex;
 }
 
 #stageCWS div {
-    border: 1px solid red;
-    margin: 20px;
-    height: 80px;
-    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    height: 100px;
+    width: 100px;
+}
+
+#spanCWS {
+    height: 60%;
+    display: flex;
+}
+
+#spanCWS span {
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 20px;
+    width: 100px;
+    text-align: center;
 }
 
 #buttonCWS {
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
 }

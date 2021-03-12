@@ -1,4 +1,4 @@
-const
+let
     newPokeballBtn = document.getElementById('newPokeball'), // блоки смены контента
     collCntInside = document.getElementById('collCntInside'),
     forCreateCIM = document.getElementById('forCreateCIM');
