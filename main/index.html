@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="./css/header/nav2.css">
     <link rel="stylesheet" href="./css/header/resource.css">
     <link rel="stylesheet" href="./css/header/info.css">
+    <link rel="stylesheet" href="css/main/content/pay/payBlockForm.css">
     <link rel="stylesheet" href="./css/main/content.css">
     <link rel="stylesheet" href="./css/main/content/collection/collCnt.css">
     <link rel="stylesheet" href="./css/main/content/firstCnt.css">
@@ -167,7 +168,13 @@
                 <!-- блок-подвязка под кнопку "shieldBtn" -->
                 <div class="blocksCnt" id="shieldCnt">Я блок Награды</div>
                 <!-- блок-подвязка под кнопку "payBtn" -->
-                <div class="blocksCnt" id="payCnt">Я блок Покупки</div>
+                <div class="blocksCnt" id="payCnt">
+                    <div id="payBlockForm">
+                        <span>Введите имя покемона:</span>
+                        <input type="text" name="payPokemon">
+                        <button type="button">Купить</button>
+                    </div>
+                </div>
                 <!-- блок-подвязка под кнопку "playBtn" -->
                 <div class="blocksCnt" id="playCnt">Я блок Играть</div>
             </div>
@@ -181,8 +188,12 @@
         </div>
     </div>
     <!-- подключения скриптов приложения -->
-    <script src="./js/dataServer/newCard.js"></script>
     <script src="./js/WebSocket.js"></script>
+    <script src="./js/dataServer/newCard.js"></script>
+
+    <!-- загрузка личного контента пользователей -->
+    <script src="./js/dataServer/SaveTheGame/download/accessCardPokemon.js"></script>
+
     <script src="./js/dataServer/pokeballEditor.js"></script>
     <script src="./js/garbageCollector/garbageCollectorForWorkspace.js"></script>
     <script src="./js/garbageCollector/garbageCollectorForContent.js"></script>
@@ -196,9 +207,8 @@
     <script src="./js/collection/selectPokeball.js"></script>
     <script src="./js/collection/changePokeball.js"></script>
     <script src="./js/collection/deletePokeball.js"></script>
+    <script src="./js/pay/payPokemonToPlayer.js"></script>
     <script src="./js/playingField/buttonMenuPlay.js"></script>
-    <!-- загрузка личного контента пользователей -->
-    <script src="./js/dataServer/SaveTheGame/download/accessCardPokemon.js"></script>
 </body>
 
 </html>

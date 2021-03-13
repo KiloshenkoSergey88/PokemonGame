@@ -19,22 +19,9 @@ let
 
 socket.on('message', function(char) { // получаем глобальное сообщение с данными покемонов в 'JSON'
 
-    window.Sandbox = char;
-    const DataAccessPok = [1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1];
+    globalThis.Sandbox = char;
+    AccessDataPlayer();
 
-    for (let i = 0; i < Sandbox.length; i++) { // обрабатываем через цикл и создаём переменные для наполнения коллекции картами покемонов
-        let data = Sandbox[i].body;
-        let nameChar = Sandbox[i].name;
-        const element = DataAccessPok[i];
-        if (Sandbox[i].level == '1') {
-            if (element == true) {
-                CIW.append(Card2(data, nameChar, i)); // добавляем карты покемонов в блок на отрисовку
-            } else {
-                CIW.append(Card1(data, nameChar, i));
-            }
-        }
-
-    }
 
 
     CIW.addEventListener('click', function(e) { // обработчик с делегированием по родительскому блоку, по условию добавляем карты с описанием взятым с сервера 'JSON'...

@@ -1,0 +1,17 @@
+#payBlockForm {
+    display: flex;
+    width: 400px;
+    height: 100px;
+}
+
+#payBlockForm>input {
+    margin: auto;
+}
+
+#payBlockForm>button {
+    margin: auto;
+}
+
+#payBlockForm>span {
+    margin: auto;
+}
