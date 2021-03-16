@@ -72,11 +72,12 @@ io.on('connection', socket => {
     console.log(`${socket.handshake.query.name} connected`);
     let OnUserTemp = socket.handshake.query.name.trim();
     const
-        changeOnline = 'UPDATE users SET online = $2 WHERE nickname = $1 RETURNING nickname, online, accesspokemon;';
+        changeOnline = 'UPDATE users SET online = $2 WHERE nickname = $1 RETURNING nickname, online, accesspokemon, datapokeball;';
     db.one(changeOnline, [OnUserTemp, true])
         .then(function(data) {
             socket.send(dataChar);
             socket.emit('accessPokemon', data.accesspokemon);
+            socket.emit('downloadPokeball', data.datapokeball);
             console.log(data.nickname, data.online);
         })
         .catch(function(error) {
@@ -88,36 +89,24 @@ io.on('connection', socket => {
         addPokAccesPokemon = `UPDATE users SET accesspokemon[${PayPokForPlayer.id}] = $2 WHERE nickname = $1 RETURNING nickname, accesspokemon;`;
         db.one(addPokAccesPokemon, [`${PayPokForPlayer.name}`, 1])
             .then(function(data) {
-                console.log(data.nickname, data.accesspokemon[`${PayPokForPlayer.id}`]);
+                console.log('покупка:', data.nickname);
             })
             .catch(function(error) {
                 console.log("ERROR:", error);
             });
     });
 
+    socket.on('dataPkgPokeball', function(savePkgThePok) {
+        savePokForUser = 'UPDATE users SET datapokeball = $2 WHERE nickname = $1 RETURNING nickname, datapokeball;';
+        db.one(savePokForUser, [`${savePkgThePok.name}`, savePkgThePok.data])
+            .then(function(data) {
+                console.log('save:', data.nickname);
+            })
+            .catch(function(error) {
+                console.log("ERROR:", error);
+            });
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    });
 
 
     socket.on('disconnect', () => {

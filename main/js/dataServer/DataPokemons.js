@@ -22,8 +22,6 @@ socket.on('message', function(char) { // получаем глобальное �
     globalThis.Sandbox = char;
     AccessDataPlayer();
 
-
-
     CIW.addEventListener('click', function(e) { // обработчик с делегированием по родительскому блоку, по условию добавляем карты с описанием взятым с сервера 'JSON'...
         CIMBD.style.display = 'none';
         if (e.target.className == 'cardPok' && e.target.style.opacity == '0.95') {

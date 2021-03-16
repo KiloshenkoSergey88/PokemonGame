@@ -1,6 +1,4 @@
-const
-    blocksForPokeballs = document.querySelectorAll('#stageCWS > div'),
-    chat = document.getElementById('chat');
+const blocksForPokeballs = document.querySelectorAll('#stageCWS > div');
 
 BCWS.addEventListener('click', (e) => {
     if (e.target.innerHTML == "Изменить" || e.target.innerHTML == "Удалить") {
@@ -26,5 +24,6 @@ BCWS.addEventListener('click', (e) => {
                 }
             }
         });
+
     }
 });

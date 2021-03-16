@@ -104,8 +104,6 @@ CIMBD.addEventListener('click', function() {
 });
 
 forCreateCIM.addEventListener('click', function() {
-    let placeesForNewPokeball = document.querySelectorAll('#stageCWS > div');
-    let placeesForNamePokeball = document.querySelectorAll('#spanCWS > span');
     let nameBall = document.getElementById('newPokeballName');
     let arr = new Array(5);
     for (let k = 0; k < placeesForNamePokeball.length; k++) {
@@ -124,6 +122,7 @@ forCreateCIM.addEventListener('click', function() {
             readyBall[i] = el.textContent;
         });
         readyBall.push(nameBall.value);
+        AddHandlerCreatedPokeball(readyBall);
         for (let i = 0; i < placeesForNewPokeball.length; i++) {
             let el = placeesForNewPokeball[i];
             if (!el.hasChildNodes()) {
