@@ -1,0 +1,27 @@
+#playCnt {
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+#searchPlay {
+    display: block;
+}
+
+.formFromPlay {
+    margin: 20px;
+}
+
+#playCnt>div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 30%;
+    height: 50%;
+}
+
+#playCnt>div>div {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}

@@ -1,6 +1,6 @@
 const express = require('express'),
     app = express(),
-    httpsOptions = require('./cert/https'),
+    httpsOptions = require('./keys/https'),
     https = require('https').Server(httpsOptions, app),
     io = require('socket.io')(https),
     dataChar = require('./Data/DataChar.json'),
@@ -68,6 +68,8 @@ app.post("/auth", urlPars, function(req, res) {
         })
 });
 
+let AllActiveUsers = new Array();
+
 io.on('connection', socket => {
     console.log(`${socket.handshake.query.name} connected`);
     let OnUserTemp = socket.handshake.query.name.trim();
@@ -83,6 +85,11 @@ io.on('connection', socket => {
         .catch(function(error) {
             console.log("ERROR:", error);
         });
+
+    AllActiveUsers.push(socket);
+    console.log('К-во online: ', AllActiveUsers.length);
+
+
     // Рабочая область для передачи сообщений в процессе сессии приложения через {Socket.io}
 
     socket.on('payPokemonForPlayer', function(PayPokForPlayer) {
@@ -108,6 +115,10 @@ io.on('connection', socket => {
 
     });
 
+    // Рабочая область для загрузки зала ожидания
+
+
+
 
     socket.on('disconnect', () => {
         console.log(`${socket.handshake.query.name} disconnected`);
@@ -116,6 +127,12 @@ io.on('connection', socket => {
         db.one(changeOffline, [OffUserTemp, false])
             .then(function(data) {
                 console.log(data);
+                for (let i = 0; i < AllActiveUsers.length; i++) {
+                    if (OffUserTemp == AllActiveUsers[i].handshake.query.name.trim()) {
+                        AllActiveUsers.splice(i, 1);
+                        console.log('К-во online: ', AllActiveUsers.length);
+                    }
+                }
             })
             .catch(function(error) {
                 console.log("ERROR:", error);

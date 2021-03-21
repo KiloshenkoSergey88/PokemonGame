@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="./css/main/content/statCnt.css">
     <link rel="stylesheet" href="./css/main/content/shieldCnt.css">
     <link rel="stylesheet" href="./css/main/content/payCnt.css">
-    <link rel="stylesheet" href="./css/main/content/playCnt.css">
+    <link rel="stylesheet" href="./css/main/content/playCnt/playCnt.css">
     <link rel="stylesheet" href="./css/main/content/collection/collCntInside.css">
     <script src="/socket.io/socket.io.js"></script>
     <title>Pokemon</title>
@@ -29,7 +29,7 @@
 <body>
     <!-- Обложка для страницы -->
     <div id="wrapper">
-        <!-- 🐬Начало верхней панели -->
+        <!-- Начало верхней панели -->
         <div id="header">
             <!-- блок для отображения,в меню, кнопки "Играть" -->
             <div id="buttonPlay">
@@ -83,9 +83,9 @@
                     <span id="activeMouseSpan">Online</span>
                 </div>
             </div>
-            <!-- 🐬Конец верхней панели -->
+            <!-- Конец верхней панели -->
         </div>
-        <!-- ⚽Начало контента для отображения всех блоков "content" -->
+        <!-- Начало контента для отображения всех блоков "content" -->
         <div id="main">
             <!-- блок для отображения страниц выбираемых по кнопкам панели меню -->
             <div id="content">
@@ -176,15 +176,25 @@
                     </div>
                 </div>
                 <!-- блок-подвязка под кнопку "playBtn" -->
-                <div class="blocksCnt" id="playCnt">Я блок Играть</div>
+                <div class="blocksCnt" id="playCnt">
+                    <div>
+                        <div class="formFromPlay">
+                            <img src="" alt=" ">
+                            <img src="" alt=" ">
+                            <img src="" alt=" ">
+                        </div>
+                        <span class="formFromPlay">Имя покебола</span>
+                        <input id="searchPlay" type="button" value="Начать" class="formFromPlay">
+                    </div>
+                </div>
             </div>
             <!-- блок для отображения панели чат-листа игрока -->
             <div id="chat"></div>
-            <!-- ⚽Конец контента для отображения всех страниц -->
+            <!-- Конец контента для отображения всех страниц -->
         </div>
-        <!-- 🍨Начало Футера приложения с дополнительными функциями -->
+        <!-- Начало Футера приложения с дополнительными функциями -->
         <div id="footer">
-            <!-- 🍨Конец Футера приложения -->
+            <!-- Конец Футера приложения -->
         </div>
     </div>
     <!-- подключения скриптов приложения -->
@@ -202,11 +212,11 @@
     <script src="./js/garbageCollector/garbageCollectorForWorkspace.js"></script>
     <script src="./js/garbageCollector/garbageCollectorForContent.js"></script>
     <script src="./js/garbageCollector/garbageCollectorForCIM2.js"></script>
+    <script src="./js/pokeball/newPokeballCreate.js"></script>
     <script src="./js/buttonMain/blocksChange.js"></script>
     <script src="./js/buttonMain/newPokeballBtn.js"></script>
     <script src="./js/dataServer/DataPokemons.js"></script>
     <script src="./js/collection/newPokeballAdd.js"></script>
-    <script src="./js/pokeball/newPokeballCreate.js"></script>
     <script src="./js/buttonMain/macroButtonCancel.js"></script>
     <script src="./js/collection/selectPokeball.js"></script>
     <script src="./js/collection/changePokeball.js"></script>
