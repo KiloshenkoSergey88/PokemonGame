@@ -8,8 +8,12 @@
     display: block;
 }
 
+#unSearchPlay {
+    display: none;
+}
+
 .formFromPlay {
-    margin: 20px;
+    margin: 15px;
 }
 
 #playCnt>div {
@@ -24,4 +28,9 @@
     width: 100%;
     display: flex;
     justify-content: space-evenly;
+}
+
+.formFromPlay > img {
+    width: 80px;
+    height: 80px;
 }
