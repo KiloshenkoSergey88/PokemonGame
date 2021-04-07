@@ -5,11 +5,6 @@ let
     playCntTimerWait = document.getElementById('playCntTimerWait'),
     preGameScreenImgLayoutPokeball = document.querySelectorAll('#playCnt > div > div > img');
 
-socket.on('youInGame', function (dataInGame) {
-    console.log(dataInGame);
-    ResetCountTimeWait();
-});
-
 PlayMenuBtn.addEventListener('click', function () {
 
     for (let i = 0; i < activePokeball.length; i++) {
@@ -82,9 +77,11 @@ startSearchPlay.addEventListener('click', () => {
 });
 
 cancelSearchPlay.addEventListener('click', () => {
+    socket.emit('ImNotReadyPlay');
     minuteCTW = 10;
 });
 
 socket.on('event', function (data) {
     console.log(data);
+    minuteCTW = 10;
 });

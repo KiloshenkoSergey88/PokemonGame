@@ -1,15 +1,15 @@
 #content {
-    width: 85vw;
-    background: thistle;
-    height: 84vh;
+  width: 85vw;
+  background: thistle;
+  height: 84vh;
 }
 
 .blocksCnt {
-    width: inherit;
-    height: inherit;
+  width: inherit;
+  height: inherit;
 }
 
 .pokBArray {
-    height: 80px;
-    width: 83px;
+  height: 80px;
+  width: 83px;
 }

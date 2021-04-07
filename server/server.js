@@ -5,8 +5,13 @@ const
     https = require('https').Server(httpsOptions, app),
     io = require('socket.io')(https),
     dataChar = require('./Data/DataChar.json'),
+    { IcePokemon, GroundPokemon } = require('./class/public/classPokemon'),
     generator = require('generate-password'),
     pgp = require("pg-promise")( /*options*/);
+
+
+let t = new IcePokemon(1, 25, 2, 2, 2, 2, 2, 2, 2);
+let y = new GroundPokemon(1, 70, 6, 8, 5, 2, 1, 5, 3, 6)
 
 const cn = {
     host: 'localhost',
@@ -76,6 +81,7 @@ let
     countForRooms = 0,
     tempRoom;
 
+
 io.on('connection', socket => {
     console.log(`${socket.handshake.query.name} connected`);
     let OnUserTemp = socket.handshake.query.name.trim();
@@ -124,34 +130,29 @@ io.on('connection', socket => {
     // Рабочая область для загрузки зала ожидания
 
     socket.on('ImReadyPlay', function (dataFromPlayer) {
-        console.log(dataFromPlayer[0], dataFromPlayer[1]);
 
         switch (countForRooms) {
             case 0:
                 console.log(countForRooms);
-                tempRoom = `${dataFromPlayer[0]} Room${countForRooms}`;
+                tempRoom = `${dataFromPlayer[0]}Room`;
                 socket.join(tempRoom);
                 countForRooms++;
-                console.log(tempRoom, socket.id, countForRooms);
+                console.log('создал', tempRoom, socket.id, countForRooms);
                 break;
             case 1:
                 socket.join(tempRoom);
-                console.log(tempRoom, socket.id, countForRooms);
-                io.to(tempRoom).emit('event', 'its a work');
+                console.log('присоединился', tempRoom, socket.id, countForRooms);
+                io.to(tempRoom).emit('event', tempRoom);
                 countForRooms = 0;
                 break;
         }
     });
 
-
-
-
-
-
-
-
-
-
+    socket.on('ImNotReadyPlay', function () {
+        socket.leave(tempRoom);
+        countForRooms = 0;
+        console.log('отсоединение', tempRoom, socket.id, countForRooms);
+    });
 
 
 
