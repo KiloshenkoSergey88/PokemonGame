@@ -1,0 +1,11 @@
+.barPokGP {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.midGP > div > div > img {
+    height: 70px;
+    width: 70px;
+    margin: 10px;
+}

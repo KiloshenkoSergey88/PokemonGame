@@ -20,20 +20,4 @@ class Pokemon {
     }
 }
 
-class IcePokemon extends Pokemon {
-
-    mainAttack(damage) {
-        this.health = this.health - damage;
-        return this.health;
-    }
-}
-
-class GroundPokemon extends Pokemon {
-
-    mainAttack(damage) {
-        this.health = this.health - damage;
-        return this.health;
-    }
-}
-
-module.exports = { IcePokemon, GroundPokemon };
+module.exports = Pokemon;

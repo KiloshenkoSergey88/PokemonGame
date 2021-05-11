@@ -1,0 +1,68 @@
+#gamePlane > div {
+    width: 50vw;
+}
+
+.topGP {
+    background-color: brown;
+    height: 10vh;
+    display: flex;
+}
+
+#avaTopMSL,
+#avaTopUSR {
+    width: 25%;
+    background-color: rgb(93, 150, 112);
+}
+
+#scoreTopMSL,
+#scoreTopUSR {
+    width: 75%;
+    border-left: cornflowerblue solid 2px;
+    border-right: cornflowerblue solid 2px;
+}
+
+.midGP {
+    background-color: darkgray;
+    height: 80vh;
+    display: flex;
+}
+
+#toolbarMidMSL,
+#toolbarMidUSR {
+    width: 25%;
+    background-color: darkkhaki;
+}
+#arenaMidMSL,
+#arenaMidUSR {
+    width: 75%;
+    background-color: lightcoral;
+    border-left: cornflowerblue solid 2px;
+    border-right: cornflowerblue solid 2px;
+}
+
+.botGP {
+    height: 10vh;
+    background-color: rgb(106, 84, 65);
+    display: flex;
+}
+
+#statusBotMSL,
+#statusBotUSR {
+    width: 90%;
+    background-color: purple;
+}
+#progressBotMSL,
+#progressBotUSR {
+    width: 10%;
+    border-left: cornflowerblue solid 2px;
+    border-right: cornflowerblue solid 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#toolbarMidMSL > div,
+#toolbarMidUSR > div {
+    height: 50%;
+    border: 1px solid cadetblue;
+}

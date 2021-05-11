@@ -5,13 +5,10 @@ const
     https = require('https').Server(httpsOptions, app),
     io = require('socket.io')(https),
     dataChar = require('./Data/DataChar.json'),
-    { IcePokemon, GroundPokemon } = require('./class/public/classPokemon'),
+    ReceiverController = require('./class/public/gameEngineOfServer'),
     generator = require('generate-password'),
     pgp = require("pg-promise")( /*options*/);
 
-
-let t = new IcePokemon(1, 25, 2, 2, 2, 2, 2, 2, 2);
-let y = new GroundPokemon(1, 70, 6, 8, 5, 2, 1, 5, 3, 6)
 
 const cn = {
     host: 'localhost',
@@ -79,7 +76,20 @@ app.post("/auth", urlPars, function (req, res) {
 let
     AllActiveUsers = new Array(),
     countForRooms = 0,
-    tempRoom;
+    tempRoom,
+    playerHost,
+    playerClient,
+    stepPlayer;
+
+function StepRandom(max) {
+    let rand = Math.floor(Math.random() * max);
+    if (rand % 2 == 0) {
+        return playerHost[0];
+    } else {
+        return playerClient[0];
+    }
+};
+
 
 
 io.on('connection', socket => {
@@ -100,7 +110,6 @@ io.on('connection', socket => {
 
     AllActiveUsers.push(socket);
     console.log('К-во online: ', AllActiveUsers.length);
-
 
     // Рабочая область для передачи сообщений в процессе сессии приложения через {Socket.io}
 
@@ -133,17 +142,20 @@ io.on('connection', socket => {
 
         switch (countForRooms) {
             case 0:
-                console.log(countForRooms);
                 tempRoom = `${dataFromPlayer[0]}Room`;
+                playerHost = dataFromPlayer;
                 socket.join(tempRoom);
                 countForRooms++;
                 console.log('создал', tempRoom, socket.id, countForRooms);
                 break;
             case 1:
+                playerClient = dataFromPlayer;
                 socket.join(tempRoom);
-                console.log('присоединился', tempRoom, socket.id, countForRooms);
-                io.to(tempRoom).emit('event', tempRoom);
+                stepPlayer = StepRandom(9);
+                let dataValue = [tempRoom, playerHost, playerClient, stepPlayer];
+                io.to(tempRoom).emit('dataConnectGame', dataValue);
                 countForRooms = 0;
+                console.log('присоединился', tempRoom, socket.id, countForRooms);
                 break;
         }
     });
@@ -155,9 +167,14 @@ io.on('connection', socket => {
     });
 
 
+    // Игровой процесс
 
-
-
+    socket.on('dataStep', function (dataStep) {
+        console.log(dataStep);
+        ReceiverController(dataStep);
+        let tempRoom = dataStep[0];
+        io.to(tempRoom).emit('channel1', dataStep);
+    });
 
 
 
@@ -181,6 +198,7 @@ io.on('connection', socket => {
             });
     });
 });
+
 
 https.listen(3443, "192.168.1.100", () => {
     console.log("Server running to 192.168.1.100:3443")

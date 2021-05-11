@@ -22,6 +22,12 @@
     <link rel="stylesheet" href="./css/main/content/payCnt.css">
     <link rel="stylesheet" href="./css/main/content/playCnt/playCnt.css">
     <link rel="stylesheet" href="./css/main/content/collection/collCntInside.css">
+    <link rel="stylesheet" href="./css/gamePlane/gamePlane.css">
+    <link rel="stylesheet" href="./css/gamePlane/topGP/topAvatapGP.css">
+    <link rel="stylesheet" href="./css/gamePlane/topGP/topScoreGP.css">
+    <link rel="stylesheet" href="./css/gamePlane/midGP/barPokGP.css">
+    <link rel="stylesheet" href="./css/gamePlane/botGP/progressBotGP.css">
+    <link rel="stylesheet" href="./css/gamePlane/midGP/buttonPokGP.css">
     <script src="/socket.io/socket.io.js"></script>
     <title>Pokemon</title>
 </head>
@@ -48,9 +54,11 @@
             <!-- блок для отображения дополнительного меню -->
             <div id="nav2">
                 <!-- кнопка для отображения контента наград игрока -->
-                <button><img class="isAllbuttons" id="shieldBtn" width="40" height="40" src="./img/logo/shield.png" alt="shield" title="Награды"></button>
+                <button><img class="isAllbuttons" id="shieldBtn" width="40" height="40" src="./img/logo/shield.png"
+                        alt="shield" title="Награды"></button>
                 <!-- кнопка для отображения контента магазина для игрока -->
-                <button><img class="isAllbuttons" id="payBtn" width="50" height="50" src="./img/logo/cards.png" alt="pay" title="Покупки"></button>
+                <button><img class="isAllbuttons" id="payBtn" width="50" height="50" src="./img/logo/cards.png"
+                        alt="pay" title="Покупки"></button>
             </div>
             <!-- блок для отображения ресурсов игрока -->
             <div id="resource">
@@ -179,9 +187,9 @@
                 <div class="blocksCnt" id="playCnt">
                     <div>
                         <div class="formFromPlay">
-                            <img src="" alt="">
-                            <img src="" alt="">
-                            <img src="" alt="">
+                            <img src="" alt="Pok1">
+                            <img src="" alt="Pok2">
+                            <img src="" alt="Pok3">
                         </div>
                         <span id="playCntNamePB" class="formFromPlay"></span>
                         <input id="searchPlay" type="button" value="Начать" class="formFromPlay">
@@ -197,6 +205,81 @@
         <!-- Начало Футера приложения с дополнительными функциями -->
         <div id="footer">
             <!-- Конец Футера приложения -->
+        </div>
+    </div>
+    <div id="gamePlane">
+        <div id="mySideLeft">
+            <div id="topMSL" class="topGP">
+                <div id="avaTopMSL" class="avaTop">
+                    <span id="myNameGP"></span>
+                </div>
+                <div id="scoreTopMSL" class="scoreTop">
+                    <div class="scoreTopMy">
+                        <span>1</span>
+                    </div>
+                    <div class="scoreTopMy">
+                        <span>2</span>
+                    </div>
+                </div>
+            </div>
+            <div id="midMSL" class="midGP">
+                <div id="toolbarMidMSL">
+                    <div id="myBarPok" class="barPokGP">
+                        <img src="" alt="Pok1">
+                        <img src="" alt="Pok2">
+                        <img src="" alt="Pok3">
+                    </div>
+                    <div id="myButtonPok">
+                        <div id="addPokBtn">
+                            <button></button>
+                            <button></button>
+                            <button></button>
+                        </div>
+                        <div id="skillPokBtn"></div>
+                    </div>
+                </div>
+                <div id="arenaMidMSL"></div>
+            </div>
+            <div id="botMSL" class="botGP">
+                <div id="statusBotMSL"></div>
+                <div id="progressBotMSL">
+                    <img src="./img/logo/step.png" alt="step">
+                    <span></span>
+                </div>
+            </div>
+        </div>
+        <div id="uSideRight">
+            <div id="topUSR" class="topGP">
+                <div id="scoreTopUSR" class="scoreTop">
+                    <div class="scoreTopU">
+                        <span>2</span>
+                    </div>
+                    <div class="scoreTopU">
+                        <span>1</span>
+                    </div>
+                </div>
+                <div id="avaTopUSR" class="avaTop">
+                    <span id="oppNameGP"></span>
+                </div>
+            </div>
+            <div id="midUSR" class="midGP">
+                <div id="arenaMidUSR"></div>
+                <div id="toolbarMidUSR">
+                    <div id="uBarPok" class="barPokGP">
+                        <img src="./img/logo/battleUPok.png" alt="Pok1">
+                        <img src="./img/logo/battleUPok.png" alt="Pok2">
+                        <img src="./img/logo/battleUPok.png" alt="Pok3">
+                    </div>
+                    <div id="uButtonPok"></div>
+                </div>
+            </div>
+            <div id="botUSR" class="botGP">
+                <div id="progressBotUSR">
+                    <img src="./img/logo/step.png" alt="step">
+                    <span></span>
+                </div>
+                <div id="statusBotUSR"></div>
+            </div>
         </div>
     </div>
     <!-- подключения скриптов приложения -->
@@ -225,6 +308,10 @@
     <script src="./js/collection/deletePokeball.js"></script>
     <script src="./js/pay/payPokemonToPlayer.js"></script>
     <script src="./js/playingField/buttonMenuPlay.js"></script>
+    <script src="./js/gamePlane/createBattlePokGP.js"></script>
+    <script src="./js/gamePlane/stepDefinition.js"></script>
+    <script src="./js/gamePlane/downloadStartItem.js"></script>
+    <script src="./js/gamePlane/controllerGame.js"></script>
 </body>
 
 </html>

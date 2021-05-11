@@ -5,6 +5,7 @@ body {
 #wrapper {
     height: 100vh;
     background: cornflowerblue;
+    display: block;
 }
 
 #header {
@@ -27,4 +28,11 @@ body {
 #chat {
     width: 15vw;
     background: yellowgreen;
+}
+
+#gamePlane {
+    display: none;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
 }

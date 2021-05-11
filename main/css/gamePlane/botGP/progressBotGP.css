@@ -1,0 +1,14 @@
+#progressBotMSL > img,
+#progressBotUSR > img {
+    width: 50px;
+    height: 50px;
+    display: none;
+}
+
+#progressBotMSL > span,
+#progressBotUSR > span {
+    width: 50px;
+    height: 50px;
+    display: none;
+    font-size: 3rem;
+}

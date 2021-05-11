@@ -5,6 +5,7 @@ let
     playCntTimerWait = document.getElementById('playCntTimerWait'),
     preGameScreenImgLayoutPokeball = document.querySelectorAll('#playCnt > div > div > img');
 
+
 PlayMenuBtn.addEventListener('click', function () {
 
     for (let i = 0; i < activePokeball.length; i++) {
@@ -81,7 +82,4 @@ cancelSearchPlay.addEventListener('click', () => {
     minuteCTW = 10;
 });
 
-socket.on('event', function (data) {
-    console.log(data);
-    minuteCTW = 10;
-});
+
