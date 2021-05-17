@@ -4,7 +4,7 @@ const
     nameAvaMyGP = document.querySelector('#avaTopMSL > span'),
     nameAvaUGP = document.querySelector('#avaTopUSR > span'),
     myBattlePok = document.querySelectorAll('#myBarPok > img'),
-    myButtonPok = document.querySelectorAll('#addPokBtn > button'),
+    myButtonPok = document.getElementsByClassName('changeActivePokGP'),
     myProgressImg = document.querySelector('#progressBotMSL > img'),
     uProgressImg = document.querySelector('#progressBotUSR > img'),
     myProgressTime = document.querySelector('#progressBotMSL > span'),
@@ -26,11 +26,13 @@ socket.on('dataConnectGame', function (dataValue) {
         nameAvaMyGP.innerHTML = dataValue[c][0];
         nameAvaUGP.innerHTML = dataValue[d][0];
         AddBattlePokGP(dataValue, c);
+        ShowHideBtnChangePok(dataValue[3]);
         TimerStepForGameGP(dataValue[3]);
     } else {
         nameAvaMyGP.innerHTML = dataValue[d][0];
         nameAvaUGP.innerHTML = dataValue[c][0];
         AddBattlePokGP(dataValue, d);
+        ShowHideBtnChangePok(dataValue[3]);
         TimerStepForGameGP(dataValue[3]);
     }
 });

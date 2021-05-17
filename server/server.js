@@ -95,8 +95,7 @@ function StepRandom(max) {
 io.on('connection', socket => {
     console.log(`${socket.handshake.query.name} connected`);
     let OnUserTemp = socket.handshake.query.name.trim();
-    const
-        changeOnline = 'UPDATE users SET online = $2 WHERE nickname = $1 RETURNING nickname, online, accesspokemon, datapokeball;';
+    const changeOnline = 'UPDATE users SET online = $2 WHERE nickname = $1 RETURNING nickname, online, accesspokemon, datapokeball;';
     db.one(changeOnline, [OnUserTemp, true])
         .then(function (data) {
             socket.send(dataChar);
@@ -114,7 +113,7 @@ io.on('connection', socket => {
     // Рабочая область для передачи сообщений в процессе сессии приложения через {Socket.io}
 
     socket.on('payPokemonForPlayer', function (PayPokForPlayer) {
-        addPokAccesPokemon = `UPDATE users SET accesspokemon[${PayPokForPlayer.id}] = $2 WHERE nickname = $1 RETURNING nickname, accesspokemon;`;
+        const addPokAccesPokemon = `UPDATE users SET accesspokemon[${PayPokForPlayer.id}] = $2 WHERE nickname = $1 RETURNING nickname, accesspokemon;`;
         db.one(addPokAccesPokemon, [`${PayPokForPlayer.name}`, 1])
             .then(function (data) {
                 console.log('покупка:', data.nickname);
@@ -125,7 +124,7 @@ io.on('connection', socket => {
     });
 
     socket.on('dataPkgPokeball', function (savePkgThePok) {
-        savePokForUser = 'UPDATE users SET datapokeball = $2 WHERE nickname = $1 RETURNING nickname, datapokeball;';
+        const savePokForUser = 'UPDATE users SET datapokeball = $2 WHERE nickname = $1 RETURNING nickname, datapokeball;';
         db.one(savePokForUser, [`${savePkgThePok.name}`, savePkgThePok.data])
             .then(function (data) {
                 console.log('save:', data.nickname);

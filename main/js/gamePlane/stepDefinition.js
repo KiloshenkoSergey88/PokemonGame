@@ -25,3 +25,15 @@ function TimerStepForGameGP(serverName) {
         }
     }, 1000);
 };
+
+function ShowHideBtnChangePok(serverName) {
+    if (myName.innerText == serverName) {
+        for (let i = 0; i < myButtonPok.length; i++) {
+            myButtonPok[i].style.display = 'inline-block';
+        }
+    } else if (opponentName.innerText == serverName) {
+        for (let i = 0; i < myButtonPok.length; i++) {
+            myButtonPok[i].style.display = 'none';
+        }
+    }
+}

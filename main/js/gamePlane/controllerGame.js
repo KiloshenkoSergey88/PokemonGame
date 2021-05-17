@@ -16,6 +16,7 @@ function ClientBtnControllerGP(btnPressed, sessionRoom, oppName) {
 }
 
 socket.on('channel1', (dataStep) => {
+    ShowHideBtnChangePok(dataStep[3]);
     coumtStepForGameGP = 50;
     clearInterval(timerStepForGameGP);
     TimerStepForGameGP(dataStep[3]);
