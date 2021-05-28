@@ -1,6 +1,7 @@
-let coumtStepForGameGP = 50;
-
-let timerStepForGameGP;
+let
+    coumtStepForGameGP = 50,
+    timerStepForGameGP,
+    varForShiftBtnPok = false;
 function TimerStepForGameGP(serverName) {
 
     timerStepForGameGP = setInterval(() => {
@@ -28,8 +29,10 @@ function TimerStepForGameGP(serverName) {
 
 function ShowHideBtnChangePok(serverName) {
     if (myName.innerText == serverName) {
+        varForShiftBtnPok = true;
         for (let i = 0; i < myButtonPok.length; i++) {
             myButtonPok[i].style.display = 'inline-block';
+
         }
     } else if (opponentName.innerText == serverName) {
         for (let i = 0; i < myButtonPok.length; i++) {
